@@ -61,7 +61,7 @@ export const colorPresets = [
   },
 ];
 
-export const defaultPreset = colorPresets[0];
+export const defaultPreset = colorPresets[5];
 export const purplePreset = colorPresets[1];
 export const cyanPreset = colorPresets[2];
 export const bluePreset = colorPresets[3];
@@ -78,3 +78,10 @@ export default function getColorPresets(presetsKey) {
     default: defaultPreset,
   }[presetsKey];
 }
+
+/*
+ns-1808.awsdns-34.co.uk.
+ns-1045.awsdns-02.org.
+ns-171.awsdns-21.com.
+ns-637.awsdns-15.net.
+* */

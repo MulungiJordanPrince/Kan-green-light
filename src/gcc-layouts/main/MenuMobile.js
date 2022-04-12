@@ -14,6 +14,8 @@ import Iconify from '../../components/Iconify';
 import Scrollbar from '../../components/Scrollbar';
 import { IconButtonAnimate } from '../../components/animate';
 import { NavSectionVertical } from '../../components/nav-section';
+import logo from "../../assets/gcc-Images/logos/logo-sm.png";
+import Image from "next/image";
 
 // ----------------------------------------------------------------------
 
@@ -78,7 +80,7 @@ export default function MenuMobile({ isOffset, isHome, navConfig }) {
         PaperProps={{ sx: { pb: 5, width: 260 } }}
       >
         <Scrollbar>
-          <Logo sx={{ mx: 2.5, my: 3 }} />
+            <Image src={logo} sx={{ mx: 2.5, my: 3 }}/>
 
           <List disablePadding>
             {navConfig.map((link) => (
