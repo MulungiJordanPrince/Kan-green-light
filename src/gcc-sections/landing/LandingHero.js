@@ -1,4 +1,5 @@
 import React from 'react';
+import NextLink from 'next/link'
 // utils
 import cssStyles from '../../utils/cssStyles';
 import { Breadcrumbs, Iconify, Image, TextIconLabel } from '../../components';
@@ -77,9 +78,11 @@ export default function LandingHero() {
                     Your all welcome to come join us!
                   </Typography>
                 </Stack>
+                <NextLink href='/donate' passHref>
                 <Button fullWidth variant='contained' size='large' startIcon={<Iconify icon={cloudUpload} />}>
                   Donate
                 </Button>
+                </NextLink>
               </Stack>
             </RootContainerStyle>
 

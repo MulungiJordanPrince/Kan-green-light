@@ -12,13 +12,13 @@ import {
   Container, Box, useTheme,
 } from '@mui/material';
 // utils
+import NextLink from 'next/link'
 import cssStyles from '../../utils/cssStyles';
 // components
 import { Breadcrumbs, TextIconLabel, Iconify, Image, BgOverlay } from '../../components';
 import { useResponsive } from '../../hooks';
 import cloudUpload from '@iconify/icons-carbon/cloud-upload';
 import React from 'react';
-import * as PropTypes from 'prop-types';
 import TextMaxLine from '../../components/TextMaxLine';
 
 // ----------------------------------------------------------------------
@@ -87,9 +87,11 @@ export default function ProgramsHero() {
                   Your all welcome to come join us!
                 </Typography>
               </Stack>
+              <NextLink href='/donate' passHref>
               <Button fullWidth variant='contained' size='large' startIcon={<Iconify icon={cloudUpload} />}>
                 Donate
               </Button>
+              </NextLink>
             </Stack>
           </RootContainerStyle>
 
@@ -135,14 +137,3 @@ export default function ProgramsHero() {
   );
 }
 
-
-function NextLink() {
-  return null;
-}
-
-NextLink.propTypes = {
-  href: PropTypes.any,
-  passHref: PropTypes.bool,
-  as: PropTypes.any,
-  children: PropTypes.node,
-};

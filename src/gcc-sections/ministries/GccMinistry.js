@@ -1,4 +1,5 @@
 import React from 'react';
+import NextLink from 'next/link'
 // utils
 import cssStyles from '../../utils/cssStyles';
 import { Breadcrumbs, Iconify, Image, TextIconLabel } from '../../components';
@@ -75,9 +76,11 @@ function GccMinistry({ ministry }) {
                     Your all welcome to come join us!
                   </Typography>
                 </Stack>
+                <NextLink href='/donate' passHref>
                 <Button fullWidth variant='contained' size='large' startIcon={<Iconify icon={cloudUpload} />}>
                   Donate
                 </Button>
+                </NextLink>
               </Stack>
             </RootContainerStyle>
 
@@ -106,6 +109,24 @@ function GccMinistry({ ministry }) {
           </Stack>
         </>
       </RootStyle>
+      <Stack sx={{py: 6, px: {xs: 2, md: 6, lg: 8}}} spacing={4}>
+        {
+          ministry.content.div.map((div, index) => (
+              <Box key={index}>
+                <Typography variant='h4'>{div.title}</Typography>
+                <ul>
+                  {
+                    div.points.map((point, index) => (
+                        <li key={index}>
+                          <Typography variant='body1' sx={{fontSize: "0.875em"}}>{point}</Typography>
+                        </li>
+                    ))
+                  }
+                </ul>
+              </Box>
+          ))
+        }
+      </Stack>
       <Newsletter />
     </>
   );

@@ -39,36 +39,36 @@ const Schedules = () => {
       <Grid container spacing={2}>
         {[
           {
-            title: 'Ep 4: Praise and worship.',
+            title: 'Praise and worship.',
             subtitle:
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium est ipsum dictum lectus mauris netus. Diam sed sit quisque facilisi luctus feugiat.',
-            date: 'June 12, 2021',
-            duration: '30 mins',
-            tag: 'Devices',
-          },
-          {
-            title: 'Ep 3: Lorem ipsum dolor sit',
-            subtitle:
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium est ipsum dictum lectus mauris netus. Diam sed sit quisque facilisi luctus feugiat.',
-            date: 'June 13, 2021',
-            duration: '50 mins',
-            tag: 'Devices',
-          },
-          {
-            title: 'Ep 2: Consectetur adipiscing elit.',
-            subtitle:
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium est ipsum dictum lectus mauris netus. Diam sed sit quisque facilisi luctus feugiat.',
-            date: 'June 14, 2021',
+              'Mighty praise and worship led by the glorious church of christ worship team.',
+            date: 'April 13,14,15,2022',
             duration: '1 hour',
-            tag: 'Tech',
+            tag: 'Activity',
           },
           {
-            title: 'Ep 1: Welcoming the visitors and believers',
+            title: '1st Preacher',
             subtitle:
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium est ipsum dictum lectus mauris netus. Diam sed sit quisque facilisi luctus feugiat.',
-            date: 'June 15, 2021',
-            duration: '2 hours',
-            tag: 'News',
+              'Word from the first preacher.',
+            date: 'April 13,14,15,2022',
+            duration: '1 hour',
+            tag: 'Activity',
+          },
+          {
+            title: 'Praise and Worship',
+            subtitle:
+              'Mighty praise and worship led by the glorious church of christ worship team..',
+            date: 'April 13,14,15,2022',
+            duration: '1 hour',
+            tag: 'Activity',
+          },
+          {
+            title: '2nd Preacher',
+            subtitle:
+              'Word from the second preacher.',
+            date: 'April 13,14,15,2022',
+            duration: '90 mins',
+            tag: 'Activity',
           },
         ].map((item, i) => (
           <Grid item xs={12} key={i} data-aos={'fade-up'}>
@@ -109,7 +109,7 @@ const Schedules = () => {
                   />
                 </svg>
               </Box>
-              <CardContent>
+              <CardContent sx={{width: 1}}>
                 <Box
                   display={'flex'}
                   justifyContent={'space-between'}
@@ -144,7 +144,7 @@ const Schedules = () => {
                   </Typography>
                 </Box>
                 <Box display={'flex'} justifyContent={'flex-end'}>
-                  <Button size={'large'}>Get ticket</Button>
+                  <Button size={'large'}>Set Reminder</Button>
                 </Box>
               </CardContent>
             </Box>

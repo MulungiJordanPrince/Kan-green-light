@@ -3,6 +3,7 @@ import { useTheme } from '@mui/styles';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import NextLink from 'next/link';
 
 export default function GccGalleryHero() {
   const theme = useTheme();
@@ -54,6 +55,7 @@ export default function GccGalleryHero() {
           </Typography>
         </Box>
         <Box display="flex" justifyContent={'center'}>
+            <NextLink href='/donate' passHref>
           <Box
             component={Button}
             variant="contained"
@@ -79,6 +81,7 @@ export default function GccGalleryHero() {
           >
             Support God's works
           </Box>
+            </NextLink>
         </Box>
       </Box>
     </Box>

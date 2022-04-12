@@ -56,8 +56,8 @@ export default function LandingVideo() {
         color={'textSecondary'}
         align={'center'}
       >
-        Praise God brethren, you can call/send/text in your prayer requests here on the platform or you can call these
-        numbers for prayers & counseling, +256773832586 or +256702820054.
+        Praise God brethren, you can call or send text of your prayer requests here on the platform or you can call these
+        numbers for prayers & counseling, +256772699152 or +256702699152.
       </Typography>
     </Box>
     {latestVideo && <RootStyle>

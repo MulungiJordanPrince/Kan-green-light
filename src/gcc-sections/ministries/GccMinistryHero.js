@@ -1,4 +1,5 @@
 import React from 'react';
+import NextLink from 'next/link'
 // utils
 import cssStyles from '../../utils/cssStyles';
 import { BgOverlay, Breadcrumbs, Iconify, Image, TextIconLabel } from '../../components';
@@ -10,7 +11,6 @@ import cloudUpload from '@iconify/icons-carbon/cloud-upload';
 import { useResponsive } from '../../hooks';
 import { styled } from '@mui/material/styles';
 import TextMaxLine from '../../components/TextMaxLine';
-import * as PropTypes from 'prop-types';
 
 // ----------------------------------------------------------------------
 
@@ -76,9 +76,11 @@ export default function GccMinistryHero() {
                     Your all welcome to come join us!
                   </Typography>
                 </Stack>
+                <NextLink href='/donate' passHref>
                 <Button fullWidth variant='contained' size='large' startIcon={<Iconify icon={cloudUpload} />}>
                   Donate
                 </Button>
+                </NextLink>
               </Stack>
             </RootContainerStyle>
 
@@ -125,13 +127,3 @@ export default function GccMinistryHero() {
   );
 }
 
-function NextLink(props) {
-  return null;
-}
-
-NextLink.propTypes = {
-  href: PropTypes.any,
-  passHref: PropTypes.bool,
-  as: PropTypes.any,
-  children: PropTypes.node,
-};

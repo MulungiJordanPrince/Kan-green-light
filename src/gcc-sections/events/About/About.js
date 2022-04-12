@@ -31,7 +31,7 @@ const About = () => {
           color={'primary'}
           align={'center'}
         >
-          About
+          Events
         </Typography>
         <Box
           component={Typography}
@@ -41,7 +41,7 @@ const About = () => {
           gutterBottom
           data-aos="fade-up"
         >
-          The Biggest Digital Conference
+          Church Programs and Events.
         </Box>
         <Typography
           variant={'h6'}
@@ -51,11 +51,9 @@ const About = () => {
           data-aos="fade-up"
           sx={{maxWidth: 900}}
         >
-          There arge many variations ohf passages of sorem gpsum ilable,
+          You can find all the church programs and events under this page.
           <br />
-          but the majority have suffered alteration in some form, by ected
-          humour, or randomised words whi.rere arge many variations ohf passages
-          of sorem gpsum ilable.
+          Set reminders for Upcoming events, daily programs so that you are not able to miss out on anything.
         </Typography>
       </Stack>
       <Grid container spacing={4} direction={isMd ? 'row' : 'column-reverse'}>
@@ -69,7 +67,7 @@ const About = () => {
               gutterBottom
               color={'primary'}
             >
-              Popular guests
+              Prophetic Conference
             </Typography>
             <Box
               component={Typography}
@@ -83,10 +81,11 @@ const About = () => {
               by attending the event
             </Box>
             <Typography variant={'h6'} component={'p'} color={'textSecondary'}>
-              Lorem ipsum dolor sit amet,
+              The Annual Prophetic conference is here.
               <br />
-              consectetur adipiscing elit. Id ultricies sed ultricies fringilla
-              commodo.
+              Don't miss out on very many great speakers, great praise and worship and so many more.
+              <br/>
+              The conference will run for three days starting on 13th to 15th April from 8:00am to 6:00pm.
             </Typography>
           </Box>
           <List disablePadding>
@@ -111,7 +110,7 @@ const About = () => {
                 ),
                 title: 'Set a Reminder',
                 subtitle:
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                  'Mark the date on your calender or set a reminder on your phone.'
               },
               {
                 icon: (
@@ -133,7 +132,7 @@ const About = () => {
                 ),
                 title: 'Present yourself 13/04/2022',
                 subtitle:
-                  'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                  'Come to Glorious Church or Christ on 3th ready for the conference day 1',
               },
               {
                 icon: (
@@ -155,7 +154,7 @@ const About = () => {
                 ),
                 title: 'Share memories',
                 subtitle:
-                  'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                  'Inform a friend or two about the conference and share links of our facebook and youtube channels to friends that cannot make it physically.',
               },
             ].map((item, index) => (
               <ListItem key={index} disableGutters data-aos="fade-up">

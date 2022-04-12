@@ -35,7 +35,7 @@ export default function GccDonateOthers() {
           <CardHeader title='Give in direct to our mobile money' />
           <CardContent>
             <Stack direction='row' justifyContent='space-between'>
-              <Typography>0771581960 // 0705318900</Typography>
+              <Typography>0771581960-0705318900</Typography>
               <Call />
             </Stack>
           </CardContent>

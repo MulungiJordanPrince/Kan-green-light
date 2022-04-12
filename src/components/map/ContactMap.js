@@ -17,7 +17,25 @@ ContactMap.propTypes = {
   sx: PropTypes.object,
 };
 
-export default function ContactMap({ offices, sx, ...other }) {
+export default function ContactMap({ sx, ...other }) {
+
+    const offices = [
+        {
+            "id": "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
+            "country": "Uganda",
+            "address": " Located 200M from Bunamwaya-Ngobe Road, P.O.Box 259 Nateete-Kampala-Uganda",
+            "phoneNumber": "(+256)772483248",
+            "email": "gloriouswebsite@gmail.com",
+            "photo": "https://zone-assets-api.vercel.app/assets/images/travel/travel_5.jpg",
+            "latlng": [
+                33,
+                65
+            ]
+        },
+    ]
+
+    console.log('Offices: ', offices)
+
   const [tooltip, setTooltip] = useState(null);
 
   const [centerMap, setCenterMap] = useState({

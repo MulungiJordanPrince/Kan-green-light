@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import NextLink from 'next/link'
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -126,6 +127,7 @@ export default function LandingMinistries(){
           </Grid>
         ))}
         <Grid item container xs={12} justifyContent={'center'}>
+            <NextLink href='/ministries' passHref>
           <Button
             color={'primary'}
             variant={'contained'}
@@ -134,6 +136,7 @@ export default function LandingMinistries(){
           >
             Read all
           </Button>
+            </NextLink>
         </Grid>
       </Grid>
     </Box>

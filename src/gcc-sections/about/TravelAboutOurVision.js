@@ -42,7 +42,7 @@ export default function TravelAboutOurVision() {
         >
           <Typography variant="h2">Our Mission</Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-            Curabitur ullamcorper ultricies nisi. Aenean viverra rhoncus pede.
+            To win souls and disciple them in Christ.
           </Typography>
         </Stack>
 

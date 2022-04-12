@@ -26,6 +26,8 @@ import { useResponsive } from '../../../hooks';
 import { Logo, Iconify, SocialsButton } from '../../../components';
 //
 import MenuConfig from '../MenuConfig';
+import logo from "../../../assets/gcc-Images/logos/logo-sm.png";
+import Image from "next/image";
 
 // ----------------------------------------------------------------------
 
@@ -40,10 +42,9 @@ export default function Footer() {
           <Grid item xs={12} md={4}>
             <Stack spacing={{ xs: 3, md: 5 }}>
               <Stack alignItems='flex-start' spacing={3}>
-                <Logo />
+                  <Image src={logo} />
                 <Typography variant='body3' sx={{ color: 'text.secondary' }}>
-                  The starting point for your next project based on easy-to-customize Material-UI ©
-                  helps you build apps faster and better.
+                  Be diligent to present yourself approved to God, a worker who does not need to be ashamed, righly dividing the word of the truth.(2 Tim 2:15)
                 </Typography>
               </Stack>
 
@@ -61,7 +62,7 @@ export default function Footer() {
                 <Stack spacing={1}>
                   <Typography variant='h6'>Let’s stay in touch</Typography>
                   <Typography variant='caption' sx={{ color: 'text.secondary' }}>
-                    Ubscribe to our newsletter to receive latest articles to your inbox weekly.
+                    Subscribe to our newsletter to receive latest articles to your inbox weekly.
                   </Typography>
                 </Stack>
                 <FilledInput
@@ -104,14 +105,20 @@ export default function Footer() {
           sx={{ py: 3, textAlign: 'center' }}
         >
           <Typography variant='body3' sx={{ color: 'text.secondary' }}>
-            © 2022. All rights reserved
+              Copyright ©
+              <br/>
+              Glorious Ch Media.Dpt.2022
           </Typography>
           <Stack direction='row' spacing={3} justifyContent='center'>
             <Link variant='body3' sx={{ color: 'text.secondary' }}>
-              Help Center
+                Call Us:
+                <br/>
+                Tel 0750064865
             </Link>
             <Link variant='body3' sx={{ color: 'text.secondary' }}>
-              Terms of Service
+                Email Us:
+                <br/>
+                gloriouswebsite@gmail.com
             </Link>
           </Stack>
         </Stack>

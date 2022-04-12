@@ -28,7 +28,7 @@ export default function CareerContactInfo() {
             Email
           </Typography>
           <Link variant="body2" color="inherit" href="mailto:hello@example.com">
-            hello@example.com
+            gloriouswebsite@gmail.com
           </Link>
         </Stack>
 
@@ -36,14 +36,14 @@ export default function CareerContactInfo() {
           <Typography variant="subtitle2" sx={{ color: 'primary.main' }}>
             Phone
           </Typography>
-          <Typography variant="body2">(907) 555-0101</Typography>
+          <Typography variant="body2">(+256)772483248</Typography>
         </Stack>
 
         <Stack spacing={1}>
           <Typography variant="subtitle2" sx={{ color: 'primary.main' }}>
             Address
           </Typography>
-          <Typography variant="body2">3891 Ranchview Dr. Richardson, California 62639</Typography>
+          <Typography variant="body2">Located 200M from Bunamwaya-Ngobe Road, P.O.Box 259 Nateete-Kampala-Uganda</Typography>
         </Stack>
 
         <Stack spacing={1} alignItems={{ xs: 'center', md: 'flex-start' }}>

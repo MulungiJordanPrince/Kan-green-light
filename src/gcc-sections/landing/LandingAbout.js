@@ -1,4 +1,5 @@
 import React from 'react';
+import NextLink from 'next/link'
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
@@ -27,8 +28,8 @@ export default function LandingAbout() {
                 component='p'
                 color={'textSecondary'}
               >
-                With Webbee you get components and examples, including tons of
-                variables that will help you customize this theme with ease.
+                  G.C.C.M honours and respect the body of Christ, we work with other ministries churches and organisations that advance the body of christ activities and submit to the Lordship of Jesus Christ in Uganda and beyond.
+
               </Typography>
             </Box>
             <Box
@@ -36,6 +37,7 @@ export default function LandingAbout() {
               flexDirection={{ xs: 'column', sm: 'row' }}
               alignItems={{ xs: 'stretched', sm: 'flex-start' }}
             >
+                <NextLink href='/contact-us' passHref>
               <Box
                 component={Button}
                 variant='outlined'
@@ -45,6 +47,8 @@ export default function LandingAbout() {
               >
                 Contact For Prays
               </Box>
+                </NextLink>
+                    <NextLink href='/donate' passHref>
               <Box
                 component={Button}
                 variant='contained'
@@ -56,6 +60,7 @@ export default function LandingAbout() {
               >
                 Support God's work
               </Box>
+                    </NextLink>
             </Box>
           </Box>
         </Grid>

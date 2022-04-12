@@ -71,7 +71,7 @@ export default function GccAboutStory() {
           <Typography variant="h2">Our Story</Typography>
 
           <Typography sx={{ color: 'text.secondary' }}>
-            Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
+            Background Glorious Church Of Christ ministries Bunamwaya Located 200M from Bunamwaya-Ngobe Road, P.O.Box 259 Nateete-Kampala-Uganda started as a cell group of mutundwe Christian fellowship under miracle Centre church Mutundwe-kabaawo Zone, Kampala, Uganda and developed into church under the home of Mr. Lule, Kisigula Road. Since then it has gone through different stages and rental places with semi structure until To-date where it owns a home with permanent structure for school of ministry and semi permanent tent for the church.
           </Typography>
         </Stack>
 
