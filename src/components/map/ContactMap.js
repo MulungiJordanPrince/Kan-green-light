@@ -28,8 +28,8 @@ export default function ContactMap({ sx, ...other }) {
             "email": "gloriouswebsite@gmail.com",
             "photo": "https://zone-assets-api.vercel.app/assets/images/travel/travel_5.jpg",
             "latlng": [
-                33,
-                65
+                0.26379013880586466,
+                32.54636041349096
             ]
         },
     ]
@@ -55,9 +55,9 @@ export default function ContactMap({ sx, ...other }) {
   return (
     <Box sx={{ height: 480, overflow: 'hidden', ...sx }} {...other}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: GOOGLE_API }}
+        bootstrapURLKeys={{ key: 'AIzaSyAfp5ZK1FeI94gQZE8ZC0nDrKqX8AS0E3U' }}
         center={centerMap}
-        zoom={2}
+        zoom={12}
         options={{
           styles: MapStyle,
           disableDefaultUI: true,

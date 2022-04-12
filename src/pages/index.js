@@ -13,6 +13,7 @@ import LandingAbout from '../gcc-sections/landing/LandingAbout';
 import LandingMinistries from '../gcc-sections/landing/LandingMinistries';
 import LandingVideo from '../gcc-sections/landing/LandingVideo';
 import Newsletter from '../gcc-sections/Newsletter';
+import LandingCarousel from "../gcc-sections/landing/LandingCarousel";
 
 // ----------------------------------------------------------------------
 
@@ -34,7 +35,8 @@ export default function index() {
     return (
         <Page title='Home'>
             <RootStyle>
-                <LandingHero />
+                <LandingCarousel />
+                {/*<LandingHero />*/}
                 <LandingPropheticEvent />
                 <LandingAbout />
                 <LandingVideo />

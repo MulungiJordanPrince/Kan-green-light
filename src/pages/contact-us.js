@@ -33,7 +33,7 @@ export default function CareerContactUsPage() {
       <RootStyle>
         <CareerContactInfo />
 
-        <ContactMap offices={_offices} />
+        <ContactMap />
 
         <CareerContactForm />
 
