@@ -22,9 +22,9 @@ export default function TravelAbout() {
 
     const IMAGES = [
         "https://gcc-store.s3.amazonaws.com/images/3d0f2a9c-c038-459c-8f78-a5cbfc1c8347.jpg",
-        "https://zone-assets-api.vercel.app/assets/images/travel/travel_4.jpg",
-        "https://zone-assets-api.vercel.app/assets/images/travel/travel_5.jpg",
-        "https://zone-assets-api.vercel.app/assets/images/travel/travel_6.jpg"
+        "https://gcc-store.s3.amazonaws.com/images/fb%2079.jpg",
+        "https://gcc-store.s3.amazonaws.com/images/fb%2076.jpg",
+        "https://gcc-store.s3.amazonaws.com/images/a58b3f78-f77c-4919-8d3d-86add3023d8f.jpg"
     ]
 
     console.log('Images: ', IMAGES)
