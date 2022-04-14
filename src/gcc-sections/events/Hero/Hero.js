@@ -75,7 +75,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        {countdown.days}
+                                        00
                                     </Typography>
                                     <Typography
                                         sx={{
@@ -92,7 +92,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        {countdown.hours}
+                                        00
                                     </Typography>
                                     <Typography
                                         sx={{
@@ -109,7 +109,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        {countdown.minutes}
+                                        00
                                     </Typography>
                                     <Typography
                                         sx={{
@@ -126,7 +126,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        {countdown.seconds}
+                                        00
                                     </Typography>
                                     <Typography
                                         sx={{
