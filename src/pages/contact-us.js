@@ -29,7 +29,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 export default function CareerContactUsPage() {
   return (
-    <Page title="Contact Us - Career">
+    <Page title="Contact Us">
       <RootStyle>
         <CareerContactInfo />
 
