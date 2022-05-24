@@ -55,7 +55,7 @@ export default function TestimonialsTravel({ testimonials }) {
                 textAlign: { xs: 'center', md: 'left' },
               }}
             >
-              What Our Customer Say
+              Testimonies
             </Typography>
 
             <Slider ref={carouselRef} {...carouselSettings}>

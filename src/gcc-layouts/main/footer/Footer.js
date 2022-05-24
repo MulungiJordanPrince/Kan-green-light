@@ -44,7 +44,7 @@ export default function Footer() {
               <Stack alignItems='flex-start' spacing={3}>
                   <Image src={logo} />
                 <Typography variant='body3' sx={{ color: 'text.secondary' }}>
-                  Be diligent to present yourself approved to God, a worker who does not need to be ashamed, righly dividing the word of the truth.(2 Tim 2:15)
+                  Be diligent to present yourself approved to God, a worker who does not need to be ashamed, rightfullly dividing the word of the truth.(2 Tim 2:15)
                 </Typography>
               </Stack>
 
@@ -62,7 +62,7 @@ export default function Footer() {
                 <Stack spacing={1}>
                   <Typography variant='h6'>Let’s stay in touch</Typography>
                   <Typography variant='caption' sx={{ color: 'text.secondary' }}>
-                    Subscribe to our newsletter to receive latest articles to your inbox weekly.
+                    Email us to receive the church programs to your inbox weekly.
                   </Typography>
                 </Stack>
                 <FilledInput

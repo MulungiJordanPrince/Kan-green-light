@@ -8,14 +8,14 @@ import { Image } from '../../components';
 
 const VISIONS = [
   {
-    name: 'Vestibulum',
-    description: 'In dui magna, posuere eget, vestibulum et, tempor auctor, justo.',
+    name: '2 Corinthians 5:17',
+    description: 'Anyone who belongs to Christ has become a nw person Th old lif is gone th new life has begun.',
   },
   {
-    name: 'Fusce',
-    description: 'Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.',
+    name: 'Colossians 3:1',
+    description: 'Since you have raised to Nw life with Christ,set your sights on the realities of Heaven.',
   },
-  { name: 'Praesent', description: 'Suspendisse feugiat. Quisque id odio.' },
+  { name: 'Pray-Wait-Trust', description: 'Isaih 40:31.' },
 ];
 
 const RootStyle = styled('div')(({ theme }) => ({

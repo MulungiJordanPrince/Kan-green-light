@@ -76,14 +76,14 @@ const About = () => {
               gutterBottom
             >
               <Typography color="primary" variant="inherit" component="span">
-                Get the a blessing
+                Come Experience the Love of God
               </Typography>{' '}
-              by attending the event
+              during these events.
             </Box>
             <Typography variant={'h6'} component={'p'} color={'textSecondary'}>
               The Worship evening is here.
               <br />
-              Don't miss the Great worship come the 26th June 2022.
+              Don't miss Great worship come the 26th June 2022.
               <br/>
               The Event will happen on 26th June 2022 starting from 5:00PM to 9:00PM.
             </Typography>
@@ -130,9 +130,9 @@ const About = () => {
                     />
                   </svg>
                 ),
-                title: 'Present yourself 13/04/2022',
+                title: 'Present yourself ',
                 subtitle:
-                  'Come to Glorious Church or Christ on 3th ready for the conference day 1',
+                  'Come to Glorious Church of Christ Ready to Receive from God',
               },
               {
                 icon: (
@@ -152,9 +152,9 @@ const About = () => {
                     />
                   </svg>
                 ),
-                title: 'Share memories',
+                title: 'Share The Event',
                 subtitle:
-                  'Inform a friend or two about the conference and share links of our facebook and youtube channels to friends that cannot make it physically.',
+                  'Inform a friend or two about the event and share links of our facebook and youtube channels to friends that cannot make it physically.',
               },
             ].map((item, index) => (
               <ListItem key={index} disableGutters data-aos="fade-up">

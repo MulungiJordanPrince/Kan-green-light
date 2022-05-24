@@ -50,7 +50,7 @@ export default function FormDialogs() {
             Cancel
           </Button>
           <Button onClick={handleClose} variant="contained">
-            Subscribe
+            Talk to Us
           </Button>
         </DialogActions>
       </Dialog>

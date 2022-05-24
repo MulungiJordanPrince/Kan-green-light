@@ -44,7 +44,7 @@ export default function LandingMinistries(){
           color={'textSecondary'}
           align={'center'}
         >
-          We've helped some great companies brand, design and get to market.
+          Interested in Joining ministry, Read about our different Church ministries..
         </Typography>
       </Box>
       <Grid container spacing={4}>

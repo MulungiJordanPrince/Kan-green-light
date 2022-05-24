@@ -12,7 +12,7 @@ function LandingHero(props) {
         position={'relative'}
         sx={{
           backgroundImage:
-            'url("https://assets.maccarianagency.com/backgrounds/img19.jpg")',
+            'url("https://www.google.com/search?q=worship+photos&rlz=1C1SQJL_enUG1004UG1004&sxsrf=ALiCzsasr62irrmL4mKA2rH-P2dVQ7i5eA:1653390029160&tbm=isch&source=iu&ictx=1&vet=1&fir=uIUrzMYiQjcWXM%252Cgf0ibnPsxN8VoM%252C_%253BkE4C4FwThPtLRM%252CmZkJsIMT72j9UM%252C_%253BwkPP5LMD9W5KyM%252CoF0Bb6TPmPGcDM%252C_%253BMoqFtI9Mggy7fM%252CT1XdnaR8bzNYhM%252C_%253BkNyTLkcQT1YKtM%252C__OliPALLoOF8M%252C_%253BGwpFCkn6MkQkvM%252CoF0Bb6TPmPGcDM%252C_%253BGy9v7iAS1-CCMM%252Ce4aFrk-O-atJDM%252C_%253BU7vb9gms-MJ4IM%252CYgjiuTBv_jlP5M%252C_%253B8S592wp8N9mwUM%252CeXDvv2d9Lkre-M%252C_%253Bt_Fdy6zBoRXm7M%252CjDcJxCjrEEy8VM%252C_%253B9LJYNZbBGV4iGM%252Cgf0ibnPsxN8VoM%252C_%253BW64RISDocS0aSM%252CSnkvX0Zvmky4BM%252C_&usg=AI4_-kTUkIFS9r73H-WsVUgIr7BDJLYADQ&sa=X&sqi=2&ved=2ahUKEwj70fPq_ff3AhWYF7kGHR9GDfEQ9QF6BAgGEAE#imgrc=kNyTLkcQT1YKtM")',
           backgroundSize: 'cover',
           backgroundPosition: 'center right',
           backgroundAttachment: 'fixed',

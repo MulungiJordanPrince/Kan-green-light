@@ -16,28 +16,28 @@ import useResponsive from '../../hooks/useResponsive';
 
 const CORE_VALUES = [
   {
-    year: '2021',
-    title: 'Customer Satisfaction',
+    year: 'First',
+    title: 'Affirm your Identity in Christ',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      'As a Christian, you should always affirm your identity in Christ Jesus.',
   },
   {
-    year: '2020',
-    title: 'Transparency',
+    year: 'Second',
+    title: 'What are we in Christ',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      'We are nw creatures bought by the precious Blood of Jesus.',
   },
   {
-    year: '2019',
-    title: 'Reputation',
+    year: 'Third',
+    title: 'Pray',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      'Prayer should be part of every Christian's life.',
   },
   {
-    year: '2018',
-    title: 'Cooperation',
+    year: 'Fourth',
+    title: 'Have Faith',
     description:
-      'Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio. Donec mollis hendrerit risus.',
+      'As a Christian of the new Convenant, you should always have Faith and Believe that God has answered your paryers.',
   },
 ];
 

@@ -27,8 +27,8 @@ export default function TeamTravelAbout() {
     const members = [
         {
             "id": "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
-            "name": "Jayvion Simon",
-            "role": "UX Designer",
+            "name": "Sembatya Ivan",
+            "role": "Head of Media",
             "photo": "https://gcc-store.s3.amazonaws.com/images/fb%2049.jpg",
             "socialLinks": {
                 "facebook": "facebook/Jayvion Simon",
@@ -39,8 +39,8 @@ export default function TeamTravelAbout() {
         },
         {
             "id": "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b2",
-            "name": "Lucian Obrien",
-            "role": "Full Stack Designer",
+            "name": "Dr.Paul Mwesigwa",
+            "role": "Head of Sound",
             "photo": "https://gcc-store.s3.amazonaws.com/images/E5D8CAFA-3BA5-466D-AA1F-0723939E8C6C.jpeg",
             "socialLinks": {
                 "facebook": "facebook/Lucian Obrien",
@@ -51,8 +51,8 @@ export default function TeamTravelAbout() {
         },
         {
             "id": "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b3",
-            "name": "Deja Brady",
-            "role": "Backend Developer",
+            "name": "Nabuto Agatha",
+            "role": "Head of Graphics",
             "photo": "https://gcc-store.s3.amazonaws.com/images/fb%202.jpg",
             "socialLinks": {
                 "facebook": "facebook/Deja Brady",
@@ -63,8 +63,8 @@ export default function TeamTravelAbout() {
         },
         {
             "id": "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b4",
-            "name": "Harrison Stein",
-            "role": "UX Designer",
+            "name": "Muwanguzi Duncan",
+            "role": "Head of Production",
             "photo": "https://gcc-store.s3.amazonaws.com/images/fb%2075.jpg",
             "socialLinks": {
                 "facebook": "facebook/Harrison Stein",
@@ -89,8 +89,9 @@ export default function TeamTravelAbout() {
         >
           <Typography variant="h2">Our Team</Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-            Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis
-            venenatis ante odio sit amet eros.
+            Glorious Church of Christ has a team of Young Men and women who have devoted them selves to serving God
+              <br/>
+              Through the media department.
           </Typography>
         </Stack>
 

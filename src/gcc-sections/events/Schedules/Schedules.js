@@ -42,15 +42,15 @@ const Schedules = () => {
             title: 'Praise and worship.',
             subtitle:
               'Mighty praise and worship led by the glorious church of christ worship team.',
-            date: 'April 13,14,15,2022',
-            duration: '1 hour',
+            date: '26th June 2022',
+            duration: '4 hours',
             tag: 'Activity',
           },
           {
             title: '1st Preacher',
             subtitle:
               'Word from the first preacher.',
-            date: 'April 13,14,15,2022',
+            date: '26th June 2022',
             duration: '1 hour',
             tag: 'Activity',
           },
@@ -58,7 +58,7 @@ const Schedules = () => {
             title: 'Praise and Worship',
             subtitle:
               'Mighty praise and worship led by the glorious church of christ worship team..',
-            date: 'April 13,14,15,2022',
+            date: '26th June 2022',
             duration: '1 hour',
             tag: 'Activity',
           },
@@ -66,7 +66,7 @@ const Schedules = () => {
             title: '2nd Preacher',
             subtitle:
               'Word from the second preacher.',
-            date: 'April 13,14,15,2022',
+            date: '26th June 2022',
             duration: '90 mins',
             tag: 'Activity',
           },

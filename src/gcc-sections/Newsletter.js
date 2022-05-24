@@ -35,10 +35,10 @@ export default function Newsletter() {
             />
             <div>
               <Typography variant="h4" gutterBottom>
-                Sign Up For Newsletter
+                Contact us for daily Word articles.
               </Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                Receive 50% discount on first project
+                All books and literature are free of charge.
               </Typography>
             </div>
           </Stack>
@@ -56,7 +56,7 @@ export default function Newsletter() {
                     borderBottomLeftRadius: 0,
                   }}
                 >
-                  Sign Up
+                  Sign up
                 </Button>
               </InputAdornment>
             }

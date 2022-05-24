@@ -47,10 +47,6 @@ const Hero = () => {
                                     Let all that I am Worship the Lord; may I never forget the good things He does for me.
                                     <br/>
                                     Psalms 103:2
-                                    <br/>
-                                    Christ Centered and Holy Spirit led worship.
-                                    <br/>
-                                    Psalms 100
                                 </Typography>
                             </Box>
                         </Box>
