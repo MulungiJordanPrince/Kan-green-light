@@ -9,7 +9,7 @@ import useCountdown from '../../../hooks/useCountdown';
 
 const Hero = () => {
     const theme = useTheme();
-    const countdown = useCountdown(new Date('04/13/2022 08:00'));
+    const countdown = useCountdown(new Date('06/26/2022 05:00'));
 
     return (
         <Box>
@@ -26,9 +26,9 @@ const Hero = () => {
                                     fontWeight: 900,
                                 }}
                             >
-                                Prophetic conference
+                               WORSHIP EVENING
                                 <br/>
-                                for believers
+                                26th June 2022
                             </Typography>
                             <Box>
                                 <Typography
@@ -44,11 +44,13 @@ const Hero = () => {
                                 >
                                     THEME
                                     <br/>
-                                    THE LATTER GLORY
+                                    Let all that I am Worship the Lord; may I never forget the good things He does for me.
                                     <br/>
-                                    Great speakers All in one Conference
+                                    Psalms 103:2
                                     <br/>
-                                    Ap.Dr.Bunjo, Pr.James Kato, Pr.Lubwama.E, BP.Justo, Dr.Abby
+                                    Christ Centered and Holy Spirit led worship.
+                                    <br/>
+                                    Psalms 100
                                 </Typography>
                             </Box>
                         </Box>
@@ -75,7 +77,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        00
+                                        {countdown.days}
                                     </Typography>
                                     <Typography
                                         sx={{
@@ -92,7 +94,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        00
+                                        {countdown.hours}
                                     </Typography>
                                     <Typography
                                         sx={{
@@ -109,7 +111,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        00
+                                        {countdown.minutes}
                                     </Typography>
                                     <Typography
                                         sx={{
@@ -126,7 +128,7 @@ const Hero = () => {
                                             fontWeight: 900,
                                         }}
                                     >
-                                        00
+                                        {countdown.seconds}
                                     </Typography>
                                     <Typography
                                         sx={{

@@ -67,7 +67,7 @@ const About = () => {
               gutterBottom
               color={'primary'}
             >
-              Prophetic Conference
+              WORSHIP EVENT
             </Typography>
             <Box
               component={Typography}
@@ -81,11 +81,11 @@ const About = () => {
               by attending the event
             </Box>
             <Typography variant={'h6'} component={'p'} color={'textSecondary'}>
-              The Annual Prophetic conference is here.
+              The Worship evening is here.
               <br />
-              Don't miss out on very many great speakers, great praise and worship and so many more.
+              Don't miss the Great worship come the 26th June 2022.
               <br/>
-              The conference will run for three days starting on 13th to 15th April from 8:00am to 6:00pm.
+              The Event will happen on 26th June 2022 starting from 5:00PM to 9:00PM.
             </Typography>
           </Box>
           <List disablePadding>
