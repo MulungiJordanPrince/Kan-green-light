@@ -7,7 +7,7 @@ import { styled } from '@mui/material/styles';
 import { HEADER } from '../config';
 import React from 'react'
 import LandingHero from '../gcc-sections/landing/LandingHero';
-import LandingWorshipeveningfrom '../gcc-sections/landing/LandingPropheticEvent';
+import LandingPropheticEvent from '../gcc-sections/landing/LandingPropheticEvent';
 import PastorsWord from '../gcc-sections/landing/PastorsWord';
 import LandingAbout from '../gcc-sections/landing/LandingAbout';
 import LandingMinistries from '../gcc-sections/landing/LandingMinistries';

@@ -31,7 +31,7 @@ const CORE_VALUES = [
     year: 'Third',
     title: 'Pray',
     description:
-      'Prayer should be part of every Christian's life.',
+      'Prayer should be part of every Christian\'s life.',
   },
   {
     year: 'Fourth',
