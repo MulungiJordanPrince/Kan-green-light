@@ -76,16 +76,11 @@ export default function MainHeader() {
                         justifyContent: 'space-between',
                     }}
                 >
-                    <Image src={logo}/>
+                    <Image src={logo} width={100} height={100}/>
                     <Box sx={{flexGrow: 1}}/>
 
                     {isDesktop && <MenuDesktop isOffset={isOffset} isHome={isHome} navConfig={navConfig}/>}
 
-                    <NextLink href='/donate' passHref>
-                        <Button variant="contained">
-                            Donate
-                        </Button>
-                    </NextLink>
 
                     {!isDesktop && <MenuMobile isOffset={isOffset} isHome={isHome} navConfig={navConfig}/>}
                 </Container>

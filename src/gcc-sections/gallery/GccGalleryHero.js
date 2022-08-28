@@ -39,7 +39,7 @@ export default function GccGalleryHero() {
           color={'textSecondary'}
           align={'center'}
         >
-          Gcc Gallery
+          KGA Gallery
         </Typography>
         <Box marginBottom={2}>
           <Typography
@@ -79,7 +79,7 @@ export default function GccGalleryHero() {
               </svg>
             }
           >
-            Support God's works
+            Contact Us Today
           </Box>
             </NextLink>
         </Box>

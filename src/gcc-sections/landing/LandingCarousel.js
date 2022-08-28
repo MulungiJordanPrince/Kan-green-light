@@ -62,9 +62,9 @@ export default function LandingCarousel() {
       >
         <Slider ref={carouselRef} {...settings}>
           {[
-            "https://gcc-store.s3.amazonaws.com/images/70d13b59-2d6f-4e55-b410-2dbf7916d7e8.jpg",
-            "https://gcc-store.s3.amazonaws.com/images/330d76c0-60e8-45cd-8528-3ef5da6a6765.jpg",
-            "https://gcc-store.s3.amazonaws.com/images/a58b3f78-f77c-4919-8d3d-86add3023d8f.jpg"
+            "https://cubeqbusiness.com/wp-content/uploads/2021/10/Graphic-designer.jpg",
+            "https://marketsplash.com/content/images/2021/03/Brand-Marketing-1.png",
+            "https://www.bennettgraphics.com/bennettgraphicswordpress/wp-content/uploads/2015/06/bennett-graphics-31.jpg"
           ].map((item) => (
             <CarouselItem key={item} item={item} />
           ))}

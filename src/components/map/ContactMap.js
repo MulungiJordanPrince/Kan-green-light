@@ -24,8 +24,8 @@ export default function ContactMap({ sx, ...other }) {
             "id": "e99f09a7-dd88-49d5-b1c8-1daf80c2d7b1",
             "country": "Uganda",
             "address": " Located 200M from Bunamwaya-Ngobe Road, P.O.Box 259 Nateete-Kampala-Uganda",
-            "phoneNumber": "(+256)772483248",
-            "email": "gloriouswebsite@gmail.com",
+            "phoneNumber": "(+256)788704848",
+            "email": "support@kangreenlightavenue.com",
             "photo": "https://zone-assets-api.vercel.app/assets/images/travel/travel_5.jpg",
             "latlng": [
                 0.26379013880586466,

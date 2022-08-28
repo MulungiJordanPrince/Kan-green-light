@@ -29,12 +29,21 @@ export default function useCountdown(date) {
 
     const getSeconds = `0${Math.floor((distanceToNow % (1000 * 60)) / 1000)}`.slice(-2);
 
-    setCountdown({
-      days: getDays.toString() || '000',
-      hours: getHours || '000',
-      minutes: getMinutes || '000',
-      seconds: getSeconds || '000',
-    });
+    if (distanceToNow < 1) {
+      setCountdown({
+        days: '00',
+        hours: '00',
+        minutes: '00',
+        seconds: '00',
+      });
+    } else {
+      setCountdown({
+        days: getDays.toString() || '000',
+        hours: getHours || '000',
+        minutes: getMinutes || '000',
+        seconds: getSeconds || '000',
+      });
+    }
   };
 
   return countdown;

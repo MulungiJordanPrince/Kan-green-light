@@ -12,20 +12,20 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction='up' ref={ref} {...props} />;
 });
 
-const profession = 'https://gcc-store.s3.amazonaws.com/images/70d13b59-2d6f-4e55-b410-2dbf7916d7e8.jpg';
-const Marriage = 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/married/married.jpg';
-const outreach = 'https://gcc-store.s3.amazonaws.com/images/IMG_0076.JPG';
-const inReach = 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/in-reach/IMG_8770-1000x600.jpg';
-const women = 'https://gcc-store.s3.amazonaws.com/images/B3C39C11-33B5-4D59-B2AE-DF6C1EC78A86.jpeg';
-const intersection = 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/Intercessory/Intercessory.jpeg';
-const men = 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/men/men.jpeg';
-const child = 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/chrildren/children2.jpeg';
-const youth = 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/youth/children.jpeg';
+const branding = 'https://www.marketingdonut.co.uk/sites/default/files/branding_overview_371705137.jpg';
+const advertising = 'http://www.nelsonlive.co.nz/wp-content/uploads/2018/06/Advertising-Agency-in-el-paso-tx.jpg';
+const outreach = 'https://www.midlothiancenter.com/wp-content/uploads/2020/06/Event-management-Concept.-The.jpg';
+const inReach = 'https://bennywebtech.com/wp-content/uploads/2021/09/gg.jpg';
+const women = 'http://www.internetconsultinginc.com/wp-content/uploads/2017/01/content-development.jpg';
+const intersection = 'https://www.webworxtechnology.com/wp-content/uploads/2018/06/web-development.jpg';
+const men = 'https://www.alert-software.com/hs-fs/hubfs/Corporate-communication-strategy--min.png?width=1280&name=Corporate-communication-strategy--min.png';
+const child = 'https://www.sweetprocess.com/wp-content/uploads/2022/02/Product-Development-01-01.png';
+const youth = 'https://www.mapsofindia.com/ci-moi-images/my-india/2021/12/IMG-20211201-WA0004.jpg';
 
 const ministries = [
   {
-    title: 'Professionals Ministry',
-    image: profession,
+    title: 'Branding',
+    image: branding,
     content: {
       div: [
         {
@@ -93,8 +93,8 @@ const ministries = [
     },
   },
   {
-    title: 'Married Ministry',
-    image: Marriage,
+    title: 'Advertising',
+    image: advertising,
     content: {
       div: [
         {
@@ -135,7 +135,7 @@ const ministries = [
     },
   },
   {
-    title: 'Women Ministry',
+    title: 'Content Development',
     image: women,
     content: {
       div: [
@@ -151,7 +151,7 @@ const ministries = [
     },
   },
   {
-    title: 'Intercessory',
+    title: 'Web Development',
     image: intersection,
     content: {
       div: [
@@ -187,7 +187,7 @@ const ministries = [
     },
   },
   {
-    title: 'Men Ministry',
+    title: 'CORPORATE COMMUNICATION',
     image: men,
     content: {
       div: [
@@ -246,7 +246,7 @@ const ministries = [
     },
   },
   {
-    title: 'Children\'s Ministry',
+    title: 'Product Development',
     image: child,
     content: {
       div: [
@@ -263,7 +263,7 @@ const ministries = [
     },
   },
   {
-    title: 'Youth Ministry',
+    title: 'Public Relations',
     image: youth,
     content: {
       div: [
@@ -292,7 +292,7 @@ const ministries = [
     },
   },
   {
-    title: 'Out-Reach Ministry',
+    title: 'Events Management',
     image: outreach,
     content: {
       div: [
@@ -323,7 +323,7 @@ const ministries = [
     },
   },
   {
-    title: 'In-reach Ministry',
+    title: 'Graphics Designing',
     image: inReach,
     content: {
       div: [

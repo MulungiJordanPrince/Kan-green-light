@@ -48,11 +48,11 @@ export default function LandingHero() {
                 <Breadcrumbs
                   onDark
                   links={[
-                    { name: 'GCCM' },
+                    { name: 'KGA' },
                   ]}
                 />
                 <Typography variant='h3' component='h1' sx={{ mb: 3 }}>
-                  Glorious Church of Christ
+                  KAN GREENLIGHT AVENUE LTD.
                 </Typography>
 
                 <Stack spacing={3} direction={{ xs: 'column', md: 'row' }} sx={{ opacity: 0.48 }}>
@@ -60,27 +60,27 @@ export default function LandingHero() {
                     icon={<Iconify icon={baggageClaim} sx={{ width: 20, height: 20, mr: 1 }} />}
                     value={
                       <Link color='inherit'>
-                        Ministries
+                        Services
                       </Link>
                     }
                   />
                   <TextIconLabel
                     icon={<Iconify icon={user} sx={{ width: 20, height: 20, mr: 1 }} />}
-                    value='Gccm Church'
+                    value='Kan GreenLight '
                   />
                   <TextIconLabel
                     icon={<Iconify icon={slots} sx={{ width: 20, height: 20, mr: 1 }} />}
-                    value={`8 Ministries`}
+                    value={`9 Services`}
                   />
                 </Stack>
                 <Stack>
                   <Typography variant='caption' component='p'>
-                    Your all welcome to come join us!
+                    Turning your Dream into Digital Reality!
                   </Typography>
                 </Stack>
                 <NextLink href='/donate' passHref>
                 <Button fullWidth variant='contained' size='large' startIcon={<Iconify icon={cloudUpload} />}>
-                  Donate
+                  Contact Us
                 </Button>
                 </NextLink>
               </Stack>

@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import TextMaxLine from '../../components/TextMaxLine';
 
-export default function LandingMinistries(){
+export default function Landingservices(){
   const theme = useTheme();
 
   return (
@@ -27,7 +27,7 @@ export default function LandingMinistries(){
           color={'primary'}
           align={'center'}
         >
-          Ministries
+          Services
         </Typography>
         <Box
           component={Typography}
@@ -36,7 +36,7 @@ export default function LandingMinistries(){
           align={'center'}
           gutterBottom
         >
-          Read about our Ministries
+          Read about our Services
         </Box>
         <Typography
           variant='body1'
@@ -44,34 +44,35 @@ export default function LandingMinistries(){
           color={'textSecondary'}
           align={'center'}
         >
-          Interested in Joining ministry, Read about our different Church ministries..
+          Want to know more about our service? Take take and read through..
         </Typography>
       </Box>
       <Grid container spacing={4}>
         {[
           {
-            title: 'Professionals Ministry',
+            title: 'Branding',
             subtitle:
-              'This is one of the various Ministries at Glorious church of Christ (GCC). In our diverse professions like medical, Legal, Accounts, Engineer etc. we come together and advance the Kingdom of God. Programs are managed by a committee of 12 professionals',
-            media: 'https://gcc-store.s3.amazonaws.com/images/70d13b59-2d6f-4e55-b410-2dbf7916d7e8.jpg',
+              ' Our task is to re-brand the store and represent a new concept.  We create expressions for brands that are unique, unambiguous and consistent, and initiate, create digital products with new or different characteristics that offer new or additional benefits to the customer. Our work includes content websites and subscriptions, web applications suites, script installations, e-commerce bundles and consulting services. ',
+            media: 'https://www.marketingdonut.co.uk/sites/default/files/branding_overview_371705137.jpg',
           },
           {
-            title: 'Intercessory',
+            title: 'Advertising',
             subtitle:
-              'The mission of the intercessory Ministry is to work behind the scenes to edify and cover the entire Restoration Temple family through prayer.',
-            media: 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/Intercessory/Intercessory.jpeg',
+              'We foster brand affinity through a continuous marketing dialogue which results in an interactive and intimate relationship between a brand and its audience. We initiate and sustain this relationship through website and blog development, landing pages, sales promotions, branded e-mails, social media, event design, sponsorship, product and services launches.',
+            media: 'http://www.nelsonlive.co.nz/wp-content/uploads/2018/06/Advertising-Agency-in-el-paso-tx.jpg',
           },
           {
-            title: 'Married Ministry',
+            title: 'Content Development',
             subtitle:
-              'As married couples living in a time when Gods standard has become distorted by the evil desires of man.',
-            media: 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/married/married.jpg',
+              'We listen to our clients requirements first and then identify what you wish to achieve. We then develop ideas to determine structure and technology\'s that suits your requirements. We also study your market/industry to analyze it thoroughly to design the user-friendly optimal solution. After a few discussions we will come on one page with you to design and develop the solution.',
+            media: 'http://www.internetconsultinginc.com/wp-content/uploads/2017/01/content-development.jpg',
           },
           {
-            title: 'Youth Ministry',
+            title: 'Website Development',
             subtitle:
-              'To help youth become aware of God as revealed in Jesus Christ, to respond to Christ in a personal commitment of faith, and to follow God’s will in the full meaning of church membership and Christian discipleship.',
-            media: 'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/youth/children.jpeg',
+              '\n' +
+                'We undertake unique and challenging business requirements and work within clients’ economical resources to transform any online vision into reality. Our unique creations and expertise in usability and web accessibility standards enable cognitive and stylish user friendly interfaces that convert interactions with the web into experiences that are emotional and unforgettable..',
+            media: 'https://www.webworxtechnology.com/wp-content/uploads/2018/06/web-development.jpg',
           },
         ].map((item, i) => (
           <Grid item xs={12} sm={6} md={3} key={i}>

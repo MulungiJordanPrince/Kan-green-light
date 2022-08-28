@@ -52,11 +52,11 @@ export const colorPresets = [
   // RED
   {
     name: 'red',
-    lighter: '#FFE3D5',
-    light: '#FFC1AC',
-    main: '#FF3030',
-    dark: '#B71833',
-    darker: '#7A0930',
+    lighter: '#e6f3ce',
+    light: '#b2d771',
+    main: '#95c340',
+    dark: '#557c0c',
+    darker: '#355206',
     contrastText: '#fff',
   },
 ];

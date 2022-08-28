@@ -36,7 +36,7 @@ export default function index() {
         <Page title='Home'>
             <RootStyle>
                 <LandingCarousel />
-                {/*<LandingHero />*/}
+                <LandingHero />
                 <LandingPropheticEvent />
                 <LandingAbout />
                 <LandingVideo />

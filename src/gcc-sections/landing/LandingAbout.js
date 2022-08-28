@@ -20,15 +20,14 @@ export default function LandingAbout() {
           <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
             <Box marginBottom={2}>
               <Typography variant={'h4'} sx={{ fontWeight: 700 }} gutterBottom>
-                Gccm is a life transforming and generational impacting
-                ministry. Forever.
+                  GREEN LIGHT MARKETING AVENUE LTD.  helps companies strategize and implement their creative visions. Our growing Marketing Agency is driven by passionate thinkers who work closely with each brand to create strategies that produce unparalleled results.
               </Typography>
               <Typography
                 variant='body1'
                 component='p'
                 color={'textSecondary'}
               >
-                  G.C.C.M honours and respect the body of Christ, we work with other ministries churches and organisations that advance the body of christ activities and submit to the Lordship of Jesus Christ in Uganda and beyond.
+                  Kan GreenLight Avenue LTD.
 
               </Typography>
             </Box>
@@ -45,10 +44,10 @@ export default function LandingAbout() {
                 size='large'
                 fullWidth={!isMd}
               >
-                Contact For Prays
+                E-mail Us
               </Box>
                 </NextLink>
-                    <NextLink href='/donate' passHref>
+                    <NextLink href='support@kangreenlightavenue.com' passHref>
               <Box
                 component={Button}
                 variant='contained'
@@ -58,7 +57,7 @@ export default function LandingAbout() {
                 marginTop={{ xs: 1, sm: 0 }}
                 marginLeft={{ sm: 2 }}
               >
-                Support God's work
+                Call Us
               </Box>
                     </NextLink>
             </Box>
@@ -79,7 +78,7 @@ export default function LandingAbout() {
           >
             <Box
               component={'img'}
-              src={'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/youth/children.jpeg'}
+              src={'https://apotac.com/wp-content/uploads/2021/11/Untitled-design-391.png'}
               alt='...'
               width={160}
               height={160}
@@ -98,7 +97,7 @@ export default function LandingAbout() {
               component={'img'}
               width={200}
               height={200}
-              src={'https://gcc-store.s3.us-east-2.amazonaws.com/Images/Ministries/Intercessory/Intercessory.jpeg'}
+              src={'https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/Brand%20Strategy%20101%207%20Essentials%20for%20Strong%20Company%20Branding.png?width=650&name=Brand%20Strategy%20101%207%20Essentials%20for%20Strong%20Company%20Branding.png'}
               alt='...'
               marginTop={'-8%'}
               zIndex={2}
@@ -115,7 +114,7 @@ export default function LandingAbout() {
               component={'img'}
               width={300}
               height={300}
-              src={'https://gcc-store.s3.amazonaws.com/images/3d0f2a9c-c038-459c-8f78-a5cbfc1c8347.jpg'}
+              src={'https://www.techmediasquare.com/wp-content/uploads/2020/01/Web-Development-Tech-Media-Square.jpeg'}
               alt='...'
               marginTop={'-20%'}
               marginLeft={'calc(100% - 300px)'}

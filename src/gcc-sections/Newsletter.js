@@ -35,7 +35,7 @@ export default function Newsletter() {
             />
             <div>
               <Typography variant="h4" gutterBottom>
-                Contact us for daily Word articles.
+                Contact us for daily Motivation.
               </Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                 All books and literature are free of charge.

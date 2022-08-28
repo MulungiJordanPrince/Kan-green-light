@@ -7,60 +7,60 @@ import { styled } from '@mui/material/styles';
 const fetchedImages = [
   {
     'id': 1,
-    'name': 'Church',
+    'name': 'Marketing',
     'images': [
       {
         'id': 142,
         'name': 'IMG_0076.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0076.JPG',
+        'image': 'https://cubeqbusiness.com/wp-content/uploads/2021/10/Graphic-designer.jpg',
         'date': '2022-03-12T08:18:00.059Z',
       },
       {
         'id': 143,
         'name': 'IMG_0056.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0056.JPG',
+        'image': 'https://marketsplash.com/content/images/2021/03/Brand-Marketing-1.png',
         'date': '2022-03-12T08:18:01.801Z',
       },
       {
         'id': 144,
         'name': 'IMG_0057.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0057.JPG',
+        'image': 'https://www.bennettgraphics.com/bennettgraphicswordpress/wp-content/uploads/2015/06/bennett-graphics-31.jpg',
         'date': '2022-03-12T08:18:03.361Z',
       },
       {
         'id': 56,
         'name': '330d76c0-60e8-45cd-8528-3ef5da6a6765.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/330d76c0-60e8-45cd-8528-3ef5da6a6765.jpg',
+        'image': 'https://www.marketingdonut.co.uk/sites/default/files/branding_overview_371705137.jpg',
         'date': '2021-07-23T19:23:42.863Z',
       },
       {
         'id': 57,
         'name': 'a58b3f78-f77c-4919-8d3d-86add3023d8f.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/a58b3f78-f77c-4919-8d3d-86add3023d8f.jpg',
+        'image': 'http://www.nelsonlive.co.nz/wp-content/uploads/2018/06/Advertising-Agency-in-el-paso-tx.jpg',
         'date': '2021-07-23T19:23:43.830Z',
       },
       {
         'id': 58,
         'name': '3d0f2a9c-c038-459c-8f78-a5cbfc1c8347.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/3d0f2a9c-c038-459c-8f78-a5cbfc1c8347.jpg',
+        'image': 'http://www.internetconsultinginc.com/wp-content/uploads/2017/01/content-development.jpg',
         'date': '2021-07-23T19:23:44.423Z',
       },
       {
         'id': 59,
         'name': '70d13b59-2d6f-4e55-b410-2dbf7916d7e8.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/70d13b59-2d6f-4e55-b410-2dbf7916d7e8.jpg',
+        'image': 'https://www.webworxtechnology.com/wp-content/uploads/2018/06/web-development.jpg',
         'date': '2021-07-23T19:23:45.065Z',
       },
       {
         'id': 93,
         'name': 'Annotation 2021-08-08 012603.png',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/Annotation 2021-08-08 012603.png',
+        'image': 'https://www.webworxtechnology.com/wp-content/uploads/2018/06/web-development.jpg',
         'date': '2021-08-15T10:42:56.097Z',
       },
       {
         'id': 96,
         'name': 'IMG-20210815-WA0027.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG-20210815-WA0027.jpg',
+        'image': 'https://www.webworxtechnology.com/wp-content/uploads/2018/06/web-development.jpg',
         'date': '2021-08-15T11:24:30.330Z',
       },
       {
@@ -73,7 +73,7 @@ const fetchedImages = [
   },
   {
     'id': 2,
-    'name': 'Children',
+    'name': 'Advertising',
     'images': [
       {
         'id': 115,
@@ -113,90 +113,11 @@ const fetchedImages = [
       },
     ],
   },
-  {
-    'id': 3,
-    'name': 'Choir',
-    'images': [
-      {
-        'id': 109,
-        'name': 'B3C39C11-33B5-4D59-B2AE-DF6C1EC78A86.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/B3C39C11-33B5-4D59-B2AE-DF6C1EC78A86.jpeg',
-        'date': '2021-08-31T08:43:00.193Z',
-      },
-      {
-        'id': 111,
-        'name': 'E5D8CAFA-3BA5-466D-AA1F-0723939E8C6C.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/E5D8CAFA-3BA5-466D-AA1F-0723939E8C6C.jpeg',
-        'date': '2021-08-31T08:42:59.034Z',
-      },
-      {
-        'id': 110,
-        'name': '806E6CF4-890C-4BB0-9239-DD092EF61311.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/806E6CF4-890C-4BB0-9239-DD092EF61311.jpeg',
-        'date': '2021-08-31T08:42:57.636Z',
-      },
-    ],
-  },
-  {
-    'id': 4,
-    'name': 'Church Service',
-    'images': [
-      {
-        'id': 78,
-        'name': '10EAED6D-E535-40A6-987D-51DEA2FD4A53.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/10EAED6D-E535-40A6-987D-51DEA2FD4A53.jpeg',
-        'date': '2021-08-07T08:50:55.243Z',
-      },
-    ],
-  },
-  {
-    'id': 5,
-    'name': 'In-reach',
-    'images': [],
-  },
-  {
-    'id': 6,
-    'name': 'Marrieds',
-    'images': [],
-  },
-  {
-    'id': 7,
-    'name': 'Out-reach',
-    'images': [],
-  },
-  {
-    'id': 8,
-    'name': 'Pastors',
-    'images': [
-      {
-        'id': 89,
-        'name': '4C501100-3F2D-42ED-BA35-F381206AE26C.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/4C501100-3F2D-42ED-BA35-F381206AE26C.jpeg',
-        'date': '2021-08-15T10:15:29.385Z',
-      },
-      {
-        'id': 90,
-        'name': 'FFBB2A23-2AE2-4608-B429-55106A5BFBDB.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/FFBB2A23-2AE2-4608-B429-55106A5BFBDB.jpeg',
-        'date': '2021-08-15T10:15:30.515Z',
-      },
-      {
-        'id': 106,
-        'name': 'E1F905C7-83A1-431A-976D-4DBA3B4DDBDE.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/E1F905C7-83A1-431A-976D-4DBA3B4DDBDE.jpeg',
-        'date': '2021-08-30T06:05:23.291Z',
-      },
-      {
-        'id': 107,
-        'name': '93EE0ECC-7E8F-4760-8BF0-9854B7E8E999.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/93EE0ECC-7E8F-4760-8BF0-9854B7E8E999.jpeg',
-        'date': '2021-08-30T06:05:24.733Z',
-      },
-    ],
-  },
+
+
   {
     'id': 9,
-    'name': 'Youth',
+    'name': 'Events ',
     'images': [
       {
         'id': 132,
@@ -238,7 +159,7 @@ const fetchedImages = [
   },
   {
     'id': 10,
-    'name': 'School',
+    'name': 'KGA Team',
     'images': [],
   },
   {

@@ -20,25 +20,25 @@ export default function SocialsButton({ initialColor = false, simple = true, lin
       name: 'FaceBook',
       icon: 'eva:facebook-fill',
       socialColor: '#1877F2',
-      path: '#https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqbVRYLTdPRUNhVmhqeTh5d1VqQnJKVDBhelVoQXxBQ3Jtc0tsWk4xeFJQbWpqZkd5TlRrQzFOTmU0dTZleEVtOV9sS0hCeHBjcVpienJPSDJ2RlpQSkFVUWtxS2VndTRSUWVtd3doYnkycE84RU94ay1fYkZMSnY1cFZtQ2gyd1dhQ0xNSWRzUFphZkJ0VVJWMGVEcw&q=https%3A%2F%2Fwww.facebook.com%2FGloriousChurchOfChristMinistries',
+      path: '#https://www.facebook.com/kangreenlightavenuelimited',
     },
     {
       name: 'Instagram',
       icon: 'ant-design:instagram-filled',
       socialColor: '#E02D69',
-      path: 'https://www.instagram.com/gloriouschurchofchristug/',
+      path: 'https://www.instagram.com/kangreenlight/',
     },
     {
       name: 'Youtube',
       icon: 'ant-design:youtube-filled',
       socialColor: '#dc0404',
-      path: '#https://www.youtube.com/channel/UCnSTVCj5cCr0XIGUFQu1yqw?sub_confirmation=1',
+      path: '#https://www.youtube.com/channel/UCcqVdaKI1rp8nVa7U9S6gQQ',
     },
     {
       name: 'Twitter',
       icon: 'eva:twitter-fill',
       socialColor: '#00AAEC',
-      path: 'https://twitter.com/gloriouschug',
+      path: 'https://twitter.com/kangreenlight?s=20&t=EkWPwMnlnm8734ep9vSMvQ',
     },
   ];
 

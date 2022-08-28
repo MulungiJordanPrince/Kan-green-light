@@ -19,21 +19,13 @@ const menuConfig = [
     icon: <Iconify icon={'ic:round-grain'} {...ICON_SIZE} />,
     path: '/gallery',
   },
+
   {
-    title: 'Events',
-    icon: <Iconify icon={'ic:round-grain'} {...ICON_SIZE} />,
-    path: '/events',
-  },
-  {
-    title: 'Ministries',
+    title: 'Services',
     icon: <Iconify icon={'ic:round-grain'} {...ICON_SIZE} />,
     path: '/ministries',
   },
-  {
-    title: 'Programs',
-    icon: <Iconify icon={'ic:round-grain'} {...ICON_SIZE} />,
-    path: '/programs',
-  },
+
   {
     title: 'About us',
     icon: <Iconify icon={'ic:round-grain'} {...ICON_SIZE} />,

@@ -26,9 +26,9 @@ const Hero = () => {
                                     fontWeight: 900,
                                 }}
                             >
-                               WORSHIP EVENING
+                               UPCOMING EVENTS
                                 <br/>
-                                26th June 2022
+                                Coming Soon
                             </Typography>
                             <Box>
                                 <Typography

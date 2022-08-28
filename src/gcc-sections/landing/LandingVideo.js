@@ -22,10 +22,10 @@ export default function LandingVideo() {
 
   useEffect(() => {
     axios.get('https://gcc-backend.herokuapp.com/api/gcc/v1/home/1').then(response => {
-      setLatestVideo(response.data?.latestVideo || null);
+      (response.data?.latestVideo || null);
     }).catch(error => {
       console.log("Error: ", error)
-      setLatestVideo('pMWjf1dk0Q0')
+      setLatestVideo('GoaH2VHzIuY')
     });
   }, []);
 
@@ -39,7 +39,7 @@ export default function LandingVideo() {
         color={'primary'}
         align={'center'}
       >
-        GCCM
+        KGA LTD.
       </Typography>
       <Box
         component={Typography}
@@ -48,7 +48,7 @@ export default function LandingVideo() {
         align={'center'}
         gutterBottom
       >
-        Word of Life
+        WHAT ARE WE ?
       </Box>
       <Typography
         variant='body1'
@@ -56,18 +56,17 @@ export default function LandingVideo() {
         color={'textSecondary'}
         align={'center'}
       >
-        Praise God brethren, you can call or send text of your prayer requests here on the platform or you can call these
-        numbers for prayers & counseling, +256772699152 or +256702699152.
+        We are Green Light Marketing Agency — a group of skilled individuals specialized in various areas of marketing. We are based in Uganda, started as a small startup with minimal budget and staff in Mid-2021. During the one year, we have grown into one of the best marketing Agencies in Uganda.
       </Typography>
     </Box>
-    {latestVideo && <RootStyle>
+    <RootStyle>
       <iframe
         style={{
           position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
         }}
         width='100%'
         height='100%'
-        src={`https://www.youtube.com/embed/${latestVideo}`}
+        src={`https://youtu.be/GoaH2VHzIuY`}
         title='YouTube video player' frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowFullScreen />

@@ -102,7 +102,7 @@ export default function ProgramsHero() {
             sx={{ width: 1, height: 1, maxWidth: 500, minHeight: 300 }}
           >
             <Box sx={{ borderRadius: '8px 0px 0px 8px', overflow: 'hidden', position: 'relative', height: 1, width: 1 }}>
-              <Image src='https://gcc-store.s3.amazonaws.com/images/Annotation%202021-08-08%20012603.png' alt={'hey'}
+              <Image src='https://www.pngkey.com/png/detail/74-748162_apple-macbook-gold-netbook.png' alt={'hey'}
                      ratio='1/1' />
 
               <Stack
@@ -123,7 +123,7 @@ export default function ProgramsHero() {
                       typography: { xs: 'h6', md: 'h4' },
                     }}
                   >
-                    Welcome to GCC
+                    Welcome to Kan GreenLight Avenue Ltd.
                   </TextMaxLine>
                 </NextLink>
               </Stack>

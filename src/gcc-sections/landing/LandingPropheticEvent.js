@@ -12,7 +12,7 @@ function LandingHero(props) {
         position={'relative'}
         sx={{
           backgroundImage:
-            'url("https://media.istockphoto.com/photos/christians-raising-their-hands-in-praise-and-worship-at-a-night-music-picture-id1006629472?k=20&m=1006629472&s=612x612&w=0&h=OZMSVm7G1-RF7WxLNuDyuLX8bY6tHOSgKaIEKrVDUi8=")',
+            'url("https://cdn.mos.cms.futurecdn.net/uWjEogFLUTBc8mSvagdiuP.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center right',
           backgroundAttachment: 'fixed',

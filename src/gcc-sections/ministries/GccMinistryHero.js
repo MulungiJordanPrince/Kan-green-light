@@ -50,7 +50,7 @@ export default function GccMinistryHero() {
                   ]}
                 />
                 <Typography variant='h3' component='h1' sx={{ mb: 3 }}>
-                  GCC Ministries
+                 KGA SERVICES
                 </Typography>
 
                 <Stack spacing={3} direction={{ xs: 'column', md: 'row' }} sx={{ opacity: 0.48 }}>
@@ -58,27 +58,27 @@ export default function GccMinistryHero() {
                     icon={<Iconify icon={baggageClaim} sx={{ width: 20, height: 20, mr: 1 }} />}
                     value={
                       <Link color='inherit'>
-                        Ministries
+                       SERVICES
                       </Link>
                     }
                   />
                   <TextIconLabel
                     icon={<Iconify icon={user} sx={{ width: 20, height: 20, mr: 1 }} />}
-                    value='Gcc Church'
+                    value='KGA '
                   />
                   <TextIconLabel
                     icon={<Iconify icon={slots} sx={{ width: 20, height: 20, mr: 1 }} />}
-                    value={`8 Ministries`}
+                    value={`8 Services`}
                   />
                 </Stack>
                 <Stack>
                   <Typography variant='caption' component='p'>
-                    Your all welcome to come join us!
+                    We offer a variety of services to our customers.
                   </Typography>
                 </Stack>
-                <NextLink href='/donate' passHref>
+                <NextLink href='/contact Us' passHref>
                 <Button fullWidth variant='contained' size='large' startIcon={<Iconify icon={cloudUpload} />}>
-                  Donate
+                  Contact Us
                 </Button>
                 </NextLink>
               </Stack>
@@ -91,7 +91,7 @@ export default function GccMinistryHero() {
               sx={{ width: 1, height: 1, maxWidth: 500, minHeight: 300 }}
             >
               <Box sx={{ borderRadius: '8px 0px 0px 8px', overflow: 'hidden', position: 'relative', height: 1, width: 1 }}>
-                <Image src='https://gcc-store.s3.amazonaws.com/images/a58b3f78-f77c-4919-8d3d-86add3023d8f.jpg' alt={'hey'} ratio="1/1" />
+                <Image src='https://static.semrush.com/blog/uploads/media/80/8e/808eca714e4511a37637f774b71cda95/Content%20Strategy%20Blog-03%20%281%29.png' alt={'hey'} ratio="1/1" />
 
                 <Stack
                   spacing={1}
@@ -111,7 +111,7 @@ export default function GccMinistryHero() {
                         typography: { xs: 'h6', md: 'h4' },
                       }}
                     >
-                      Welcome to GCC
+                      Welcome to our Services.
                     </TextMaxLine>
                   </NextLink>
                 </Stack>
