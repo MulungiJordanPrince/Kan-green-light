@@ -28,7 +28,8 @@ const Hero = () => {
                             >
                                UPCOMING EVENTS
                                 <br/>
-                                Coming Soon
+                                <br/>
+                                Appear Here
                             </Typography>
                             <Box>
                                 <Typography
@@ -42,11 +43,13 @@ const Hero = () => {
                                         fontWeight: 400,
                                     }}
                                 >
-                                    THEME
+                                    Address
                                     <br/>
-                                    Let all that I am Worship the Lord; may I never forget the good things He does for me.
+                                    Address: Naaalya-Namugongo Rd
+                                    Tel: 0704117372/0788704848
+
                                     <br/>
-                                    Psalms 103:2
+                                    Email: support@kangreelightavenue.com
                                 </Typography>
                             </Box>
                         </Box>
