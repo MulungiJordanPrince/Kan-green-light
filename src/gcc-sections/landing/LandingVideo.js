@@ -66,11 +66,11 @@ export default function LandingVideo() {
         }}
         width='100%'
         height='100%'
-        src={`https://youtu.be/GoaH2VHzIuY`}
+        src="https://www.youtube.com/embed/GoaH2VHzIuY"
         title='YouTube video player' frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowFullScreen />
-    </RootStyle>}
+    </RootStyle>
   </Box>);
 };
 
