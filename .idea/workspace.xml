@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="solution to -&gt; Module not found: Can't resolve 'react/addons">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/events/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/events/Hero/Hero.js" afterDir="false" />
-    </list>
+    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="solution to -&gt; Module not found: Can't resolve 'react/addons" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +104,7 @@
       <workItem from="1661786997383" duration="964000" />
       <workItem from="1662238477343" duration="6537000" />
       <workItem from="1662450929460" duration="4011000" />
-      <workItem from="1662458917325" duration="2182000" />
+      <workItem from="1662458917325" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
       <created>1661729048706</created>
@@ -151,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662460783451</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="solution to -&gt; Module not found: Can't resolve 'react/addons">
+      <created>1662461275216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662461275216</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -19,7 +19,7 @@ const Hero = () => {
                         <Box>
                             <Typography
                                 variant="h2"
-                                align="left"
+                                align="center"
                                 gutterBottom
                                 sx={{
                                     color: theme.palette.common.white,
@@ -28,8 +28,7 @@ const Hero = () => {
                             >
                                UPCOMING EVENTS
                                 <br/>
-                                <br/>
-                                Appear Here
+                                APPEAR HERE
                             </Typography>
                             <Box>
                                 <Typography
@@ -43,11 +42,11 @@ const Hero = () => {
                                         fontWeight: 400,
                                     }}
                                 >
-                                    Address
+                                    Address:
                                     <br/>
-                                    Address: Naaalya-Namugongo Rd
-                                    Tel: 0704117372/0788704848
-
+                                     Naaalya-Namugongo Rd
+                                    <br/>
+                                    Tel: 0704117372-0788704848
                                     <br/>
                                     Email: support@kangreelightavenue.com
                                 </Typography>
