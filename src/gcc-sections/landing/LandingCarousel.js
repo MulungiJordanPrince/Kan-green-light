@@ -85,5 +85,5 @@ CarouselItem.propTypes = {
 
 function CarouselItem({ item }) {
 
-  return <Image alt='GCCM' src={item} ratio="29/11" />;
+  return <Image alt='KGA' src={item} ratio="29/11" />;
 }
