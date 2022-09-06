@@ -44,7 +44,8 @@ export default function TravelAbout() {
             About Us
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-              Background Glorious Church Of Christ ministries Bunamwaya Located 200M from Bunamwaya-Ngobe Road, P.O.Box 259 Nateete-Kampala-Uganda started as a cell group of mutundwe Christian fellowship under miracle Centre church Mutundwe-kabaawo Zone, Kampala, Uganda and developed into church under the home of Mr. Lule, Kisigula Road. Since then it has gone through different stages and rental places with semi structure until To-date where it owns a home with permanent structure for school of ministry and semi permanent tent for the church.
+              Kan GreenLight Avenue Ltd is a trustworthy and agile digital marketing agency that has worked with renowned brands in Uganda in a short span of time. We provide integrated marketing solutions from Web design & development to social media management, content curation, SEO & PPC to maximize your online marketing return. Our highly experienced teams work with integrity & sincerity to turn your dreams into a digital reality.
+
           </Typography>
         </Grid>
       </Grid>
@@ -124,23 +125,20 @@ export default function TravelAbout() {
             }}
           />
           <Typography variant="h3">
-              Church Vision
+            KGA Vision
               <br/>
-              A Glorious church that is blameless without spot or wrinkle.
+              To bring value to the Marketing and digital landscape of the country and contributing our part in the economy.
           </Typography>
         </Grid>
 
         <Grid item xs={12} md={6} lg={6}>
           <Typography variant="h4" paragraph>
-            About Our Founder (Dr.Isaac Kituuka)
+            OUR MISSION & CORE VALUES
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-              He was born on 20th-04-1967 he is married to Mrs Prossy Kituuka and the Lord has blessed them with Mwesigwa Timothy, Tandeka Samuel, Mulungi Jordan, and Kituuka Isaac (JR)..
+              To enable businesses to grow by using our effective marketing strategies and to deliver maximum amount of satisfaction to our valuable partners.
             <br />
-            <br />
-              He got born again in 1990 at Makekere University Kampala (Muk), as he was finishing his first year at the university he had spent most of his time out of lectures looking for money and spending it loosely, they told him with God all things are possible he feared to expelled from the University and tried Jesus.
-              <br/>
-              Having been Born in a very remote place, poor family, grew up with the single father, when he joined the University, he had to look for money to keep up with the university standards, hence missing most lectures, Exams were very hard for him and amidst that confusion and fear he heard the Gospel and gave his life to Jesus who faithfully lead him through the university Successfully.
+              You will find us attentive, proactive and highly engaged with our customers. Since "digital" is a fast-moving technology, we move with our customers into building long-term sustainable relationships.
           </Typography>
         </Grid>
       </Grid>
