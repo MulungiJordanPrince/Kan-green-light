@@ -88,7 +88,7 @@ export default function MyApp(props) {
             <AuthProvider>
                 <ReduxProvider store={store}>
                     <PersistGate loading={null} persistor={persistor}>
-                        <LocalizationProvider dateAdapter={AdapterDateFns}>
+                        {/*<LocalizationProvider dateAdapter={AdapterDateFns}>*/}
                             <CollapseDrawerProvider>
                                 <SettingsProvider defaultSettings={settings}>
                                     <ThemeProvider>
@@ -111,7 +111,7 @@ export default function MyApp(props) {
                                     </ThemeProvider>
                                 </SettingsProvider>
                             </CollapseDrawerProvider>
-                        </LocalizationProvider>
+                        {/*</LocalizationProvider>*/}
                     </PersistGate>
                 </ReduxProvider>
             </AuthProvider>
