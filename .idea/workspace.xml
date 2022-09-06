@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="KAN GREEN LIGHT NEW" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="2CSU773646AoXcro6cmt7uhdHUm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/princ/Desktop/Green Light Website/src/assets/gcc-Images/newpics&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\princ\\Desktop\\Green Light Website\\node_modules\\prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\princ\\Desktop\\Green Light Website\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Desktop\Green Light Website\src\assets\gcc-Images\newpics" />
+      <recent name="C:\Users\princ\Desktop\Green Light Website\src\assets\gcc-Images\logos" />
+      <recent name="C:\Users\princ\Desktop\Green Light Website\public\favicon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Desktop\Green Light Website\src\assets\gcc-Images\logos" />
+      <recent name="C:\Users\princ\Desktop\Green Light Website\public\logo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="" />
+      <created>1658795308414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658795308414</updated>
+      <workItem from="1658795310063" duration="422000" />
+      <workItem from="1658797005360" duration="2464000" />
+      <workItem from="1658829520645" duration="1296000" />
+      <workItem from="1658831875351" duration="89000" />
+      <workItem from="1658833276729" duration="90000" />
+      <workItem from="1658915860844" duration="2721000" />
+      <workItem from="1659006829234" duration="3754000" />
+      <workItem from="1660867942369" duration="298000" />
+      <workItem from="1661261923708" duration="1230000" />
+      <workItem from="1661329536887" duration="1395000" />
+      <workItem from="1661331337285" duration="10594000" />
+      <workItem from="1661345220502" duration="724000" />
+      <workItem from="1661544183597" duration="11865000" />
+      <workItem from="1661717151554" duration="12974000" />
+      <workItem from="1661786997383" duration="964000" />
+      <workItem from="1662238477343" duration="952000" />
+    </task>
+    <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
+      <created>1661729048706</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661729048706</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="KAN GREEN LIGHT NEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="KAN GREEN LIGHT NEW" />
+  </component>
+</project>
