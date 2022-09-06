@@ -63,10 +63,8 @@ export default function MainHeader() {
             <ToolbarStyle
                 disableGutters
                 sx={{
-                    ...(isOffset && {
                         ...cssStyles(theme).bgBlur(),
                         height: {md: HEADER.MAIN_DESKTOP_HEIGHT - 16},
-                    }),
                 }}
             >
                 <Container

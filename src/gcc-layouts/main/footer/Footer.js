@@ -72,7 +72,7 @@ export default function Footer() {
                                     endAdornment={
                                         <InputAdornment position='end'>
                                             <Button variant='contained' size='small' sx={{py: '9px'}}>
-                                                E-mail Us Now
+                                                subscribe
                                             </Button>
                                         </InputAdornment>
                                     }
@@ -89,7 +89,7 @@ export default function Footer() {
                         {isDesktop ? (
                             <ListDesktop list={MenuConfig}/>
                         ) : (
-                            <Stack spacing={1.5}>
+                            <Stack spacing={2}>
                                 <ListMobile list={MenuConfig}/>
                             </Stack>
                         )}
@@ -142,7 +142,8 @@ function NextLinkItem({children, sx, ...other}) {
                     mt: 1,
                     color: 'text.secondary',
                     '&:hover': {
-                        color: 'text.primary',
+                        color: 'primary.main',
+                        textDecoration: 'none'
                     },
                     ...sx,
                 }}

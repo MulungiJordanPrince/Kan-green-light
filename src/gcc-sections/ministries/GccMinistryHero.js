@@ -42,11 +42,11 @@ export default function GccMinistryHero() {
             alignItems={{ xs: 'flex-start', md: 'center' }}
           >
             <RootContainerStyle>
-              <Stack spacing={{ xs: 3, md: 5 }} sx={{ maxWidth: 400, color: 'common.white' }}>
+              <Stack spacing={{ xs: 3, md: 5 }} sx={{ maxWidth: 400, color: 'common.white', px: {xs: 2, md: 6} }}>
                 <Breadcrumbs
                   onDark
                   links={[
-                    { name: 'Ministry' },
+                    { name: 'services' },
                   ]}
                 />
                 <Typography variant='h3' component='h1' sx={{ mb: 3 }}>
@@ -90,7 +90,7 @@ export default function GccMinistryHero() {
               alignItems='flex-start'
               sx={{ width: 1, height: 1, maxWidth: 500, minHeight: 300 }}
             >
-              <Box sx={{ borderRadius: '8px 0px 0px 8px', overflow: 'hidden', position: 'relative', height: 1, width: 1 }}>
+              <Box sx={{ borderRadius: '0px 0px 0px 0px', overflow: 'hidden', position: 'relative', height: 1, width: 1 }}>
                 <Image src='https://static.semrush.com/blog/uploads/media/80/8e/808eca714e4511a37637f774b71cda95/Content%20Strategy%20Blog-03%20%281%29.png' alt={'hey'} ratio="1/1" />
 
                 <Stack
@@ -100,23 +100,20 @@ export default function GccMinistryHero() {
                     zIndex: 9,
                     position: 'absolute',
                     color: 'common.white',
-                    p: { xs: 3, md: 5 },
+                    px: 2,
+                    py: 2,
                   }}
                 >
-
-                  <NextLink passHref as={'/sasd'} href={'/'}>
                     <TextMaxLine
-                      asLink
                       sx={{
                         typography: { xs: 'h6', md: 'h4' },
                       }}
                     >
-                      Welcome to our Services.
+                      Welcome to our Services
                     </TextMaxLine>
-                  </NextLink>
                 </Stack>
 
-                <BgOverlay />
+                <BgOverlay startColor={'rgba(107,255,48,0.08)'} endColor={'#28411efa'} />
               </Box>
             </Stack>}
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Tab, Tabs } from '@mui/material';
+import {Box, Container, Tab, Tabs} from '@mui/material';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { Masonry } from '@mui/lab';
 import { styled } from '@mui/material/styles';
@@ -237,7 +237,7 @@ function ImageGridList() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const [selected, setSelected] = useState('Church');
+  const [selected, setSelected] = useState('Marketing');
 
   const getCategories = fetchedImages.map((group) => group.name);
 
@@ -280,7 +280,7 @@ function ImageGridList() {
   };
 
   return (
-    <>
+    <Container>
       <Box
         sx={{
           pt: 5,
@@ -299,8 +299,15 @@ function ImageGridList() {
           ))}
         </Tabs>
       </Box>
-      <Box sx={{ width: 1, minHeight: 1 }}>
-        <Masonry columns={4} spacing={2}>
+      <Box sx={{
+        width: 1,
+        minHeight: 1
+      }}>
+        <Masonry columns={3} spacing={1} sx={{
+          py: 2,
+          backgroundSize: '18px 18px',
+          backgroundImage: (theme) => `radial-gradient(${theme.palette.primary.dark}33 10%, transparent 20%)`,
+        }}>
           {applyFilter(images, selected).map((image, index) => (
             <div key={index}>
               <ImageStyle
@@ -334,7 +341,7 @@ function ImageGridList() {
           </Modal>
         ) : null}
       </ModalGateway>
-    </>
+    </Container>
   );
 }
 

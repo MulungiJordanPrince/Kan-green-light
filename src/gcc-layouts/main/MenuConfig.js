@@ -23,7 +23,7 @@ const menuConfig = [
   {
     title: 'Services',
     icon: <Iconify icon={'ic:round-grain'} {...ICON_SIZE} />,
-    path: '/ministries',
+    path: '/services',
   },
 
   {
