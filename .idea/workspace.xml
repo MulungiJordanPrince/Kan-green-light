@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="solution to -&gt; Module not found: Can't resolve 'react/addons">
-      <change afterPath="$PROJECT_DIR$/src/components/player/Player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/PlayerWithButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/PlayerWithImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/about/ElearningAbout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/about/ElearningAboutCoreValues.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/about/ElearningAboutHero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/about/OurClientsElearning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/contact/MarketingContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/contact/MarketingContactInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingHero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingHero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingVideo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-us.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact-us.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/AboutHero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/AboutTeam.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/AboutTestimonials.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/AboutVision.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/AboutWhat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/about/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/contact/ContactForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/contact/ContactHero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/contact/ContactMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/contact/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="solution to -&gt; Module not found: Can't resolve 'react/addons" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +106,7 @@
       <workItem from="1661786997383" duration="964000" />
       <workItem from="1662238477343" duration="6537000" />
       <workItem from="1662450929460" duration="4011000" />
-      <workItem from="1662458917325" duration="12569000" />
+      <workItem from="1662458917325" duration="13451000" />
     </task>
     <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
       <created>1661729048706</created>
@@ -195,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662461766463</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="solution to -&gt; Module not found: Can't resolve 'react/addons">
+      <created>1662545389702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662545389702</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
