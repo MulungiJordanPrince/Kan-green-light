@@ -99,7 +99,7 @@ export default function MyApp(props) {
                                                         <Scrollbar sx={{height: 1}}>
                                                         <RtlLayout>
                                                             <ChartStyle/>
-                                                            <Settings/>
+                                                            {/*<Settings/>*/}
                                                             <ProgressBar/>
                                                             {getLayout(<Component {...pageProps} />)}
                                                         </RtlLayout>

@@ -13,6 +13,9 @@ import { TestimonialsTravel } from '../gcc-sections/gcc-testimonials';
 import { TeamTravelAbout } from '../gcc-sections/gcc-media-team';
 import { TravelAbout, TravelAboutOurVision } from '../gcc-sections/about';
 import GccAboutStory from '../gcc-sections/about/GccAboutStory';
+import {ElearningAbout, ElearningAboutCoreValues, ElearningAboutHero} from "../sections/about";
+import CustomerElearning from "../sections/about/OurClientsElearning";
+import {_brandsColor} from "../_mock/_brands";
 
 // ----------------------------------------------------------------------
 
@@ -29,15 +32,13 @@ export default function TravelAboutUsPage() {
   return (
     <Page title="About Us">
       <RootStyle>
-        <TravelAbout />
+        <ElearningAboutHero />
 
-        <TravelAboutOurVision />
+        <ElearningAbout />
 
-        <GccAboutStory />
+        <ElearningAboutCoreValues />
 
-        <TeamTravelAbout members={_members} />
-
-        <TestimonialsTravel testimonials={_testimonials} />
+        <CustomerElearning brands={_brandsColor} />
 
         <Newsletter />
       </RootStyle>

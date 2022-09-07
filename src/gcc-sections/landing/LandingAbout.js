@@ -14,7 +14,7 @@ export default function LandingAbout() {
   });
 
   return (
-    <Box sx={{ py: 4, px: { xs: 2, sm: 6, md: 12 } }}>
+    <Box sx={{ py: {xs: 6, md: 16}, px: { xs: 2, sm: 6, md: 12 } }}>
       <Grid container spacing={4}>
         <Grid item container alignItems={'center'} xs={12} md={6}>
           <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
