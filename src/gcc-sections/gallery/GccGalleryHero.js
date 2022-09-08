@@ -12,7 +12,7 @@ export default function GccGalleryHero() {
     <Box
       sx={{
         position: 'relative',
-        height: '280px',
+        height: '140px',
         pt: '32px',
         '&::after': {
           position: 'absolute',
@@ -25,7 +25,7 @@ export default function GccGalleryHero() {
           height: '280px',
           backgroundSize: '18px 18px',
           backgroundImage: `radial-gradient(${theme.palette.primary.dark} 20%, transparent 20%)`,
-          opacity: 0.2,
+          opacity: 0.1,
         },
       }}
     >
@@ -49,13 +49,11 @@ export default function GccGalleryHero() {
               fontWeight: 700,
             }}
           >
-            Work of art and Skill
-            <br />
-            to create memories in many lives
+            Our Gallery
           </Typography>
         </Box>
         <Box display="flex" justifyContent={'center'}>
-            <NextLink href='/donate' passHref>
+            <NextLink href='/contact us' passHref>
           <Box
             component={Button}
             variant="contained"

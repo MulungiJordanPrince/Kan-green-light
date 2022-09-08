@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Box, Container, Tab, Tabs} from '@mui/material';
+import {Box, Container, ImageList, ImageListItem, Tab, Tabs} from '@mui/material';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { Masonry } from '@mui/lab';
 import { styled } from '@mui/material/styles';
@@ -63,99 +63,17 @@ const fetchedImages = [
         'image': 'https://www.webworxtechnology.com/wp-content/uploads/2018/06/web-development.jpg',
         'date': '2021-08-15T11:24:30.330Z',
       },
-      {
-        'id': 140,
-        'name': 'Copy of Copy of Live Webinar Twitter Post - Made with PosterMyWall.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/Copy of Copy of Live Webinar Twitter Post - Made with PosterMyWall.jpg',
-        'date': '2022-02-13T09:23:01.281Z',
-      },
     ],
+  },
+  {
+    'id': 9,
+    'name': 'Events ',
+    'images': [],
   },
   {
     'id': 2,
     'name': 'Advertising',
-    'images': [
-      {
-        'id': 115,
-        'name': '0816656F-FBA5-478A-8596-D2A4882C3F50.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/0816656F-FBA5-478A-8596-D2A4882C3F50.jpeg',
-        'date': '2021-11-18T18:53:19.222Z',
-      },
-      {
-        'id': 118,
-        'name': '51B339DC-E330-4A78-A7F3-A171247729C0.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/51B339DC-E330-4A78-A7F3-A171247729C0.jpeg',
-        'date': '2021-11-18T18:53:35.605Z',
-      },
-      {
-        'id': 119,
-        'name': '3DC6E6FA-5ECA-40CA-B4B3-5A465CFBF740.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/3DC6E6FA-5ECA-40CA-B4B3-5A465CFBF740.jpeg',
-        'date': '2021-11-18T18:53:40.136Z',
-      },
-      {
-        'id': 120,
-        'name': '37C54AA2-9ABB-4818-A77C-3681825B3F87.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/37C54AA2-9ABB-4818-A77C-3681825B3F87.jpeg',
-        'date': '2021-11-18T18:53:44.190Z',
-      },
-      {
-        'id': 123,
-        'name': '3E2E6FFC-D81B-4410-B132-EB3B89D2506D.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/3E2E6FFC-D81B-4410-B132-EB3B89D2506D.jpeg',
-        'date': '2021-11-18T18:53:53.743Z',
-      },
-      {
-        'id': 117,
-        'name': 'EF6C4B8C-2DD5-487D-AC3B-E8A033AA6687.jpeg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/EF6C4B8C-2DD5-487D-AC3B-E8A033AA6687.jpeg',
-        'date': '2021-11-18T18:53:27.936Z',
-      },
-    ],
-  },
-
-
-  {
-    'id': 9,
-    'name': 'Events ',
-    'images': [
-      {
-        'id': 132,
-        'name': 'fb 79.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/fb 79.jpg',
-        'date': '2022-02-13T09:19:57.600Z',
-      },
-      {
-        'id': 152,
-        'name': 'fb 729.jpg',
-        'image': 'https://gcc-store.s3.us-east-2.amazonaws.com/youth/IMG_7654.JPG',
-        'date': '2022-02-13T09:19:57.600Z',
-      },
-      {
-        'id': 135,
-        'name': 'fb 76.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/fb 76.jpg',
-        'date': '2022-02-13T09:20:38.281Z',
-      },
-      {
-        'id': 138,
-        'name': 'fb 49.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/fb 49.jpg',
-        'date': '2022-02-13T09:20:39.741Z',
-      },
-      {
-        'id': 129,
-        'name': 'fb 2.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/fb 2.jpg',
-        'date': '2022-02-13T09:18:54.358Z',
-      },
-      {
-        'id': 131,
-        'name': 'fb 75.jpg',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/fb 75.jpg',
-        'date': '2022-02-13T09:19:57.217Z',
-      },
-    ],
+    'images': [],
   },
   {
     'id': 10,
@@ -165,50 +83,7 @@ const fetchedImages = [
   {
     'id': 11,
     'name': 'Other',
-    'images': [
-      {
-        'id': 147,
-        'name': 'IMG_0135.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0135.JPG',
-        'date': '2022-03-12T08:36:52.830Z',
-      },
-      {
-        'id': 148,
-        'name': 'IMG_0142.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0142.JPG',
-        'date': '2022-03-12T08:36:55.132Z',
-      },
-      {
-        'id': 151,
-        'name': 'IMG_0057.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0057.JPG',
-        'date': '2022-03-12T08:37:02.379Z',
-      },
-      {
-        'id': 145,
-        'name': 'IMG_0124.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0124.JPG',
-        'date': '2022-03-12T08:36:48.712Z',
-      },
-      {
-        'id': 146,
-        'name': 'IMG_0132.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0132.JPG',
-        'date': '2022-03-12T08:36:50.616Z',
-      },
-      {
-        'id': 149,
-        'name': 'IMG_0076.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0076.JPG',
-        'date': '2022-03-12T08:36:57.748Z',
-      },
-      {
-        'id': 150,
-        'name': 'IMG_0056.JPG',
-        'image': 'https://gcc-store.s3.amazonaws.com/images/IMG_0056.JPG',
-        'date': '2022-03-12T08:36:59.901Z',
-      },
-    ],
+    'images': [],
   },
 ];
 
@@ -219,8 +94,8 @@ const ImageStyle = styled('img')(({ theme }) => ({
   cursor: 'pointer',
   '&:hover': {
     transitionDuration: '0.5s',
-    opacity: '0.9',
-    transform: 'scale(1.1)',
+    opacity: '0.7',
+    transform: 'scale(1.02)',
     },
 }));
 
@@ -303,13 +178,9 @@ function ImageGridList() {
         width: 1,
         minHeight: 1
       }}>
-        <Masonry columns={3} spacing={1} sx={{
-          py: 2,
-          backgroundSize: '18px 18px',
-          backgroundImage: (theme) => `radial-gradient(${theme.palette.primary.dark}33 10%, transparent 20%)`,
-        }}>
+          <ImageList variant="masonry" cols={3} gap={8} sx={{ py: 2 }}>
           {applyFilter(images, selected).map((image, index) => (
-            <div key={index}>
+              <ImageListItem key={index}>
               <ImageStyle
                 src={`${image.image}?w=162&auto=format`}
                 srcSet={`${image.image}?w=162&auto=format&dpr=2 2x`}
@@ -323,10 +194,10 @@ function ImageGridList() {
                   cursor: 'pointer'
                 }}
               />
-            </div>
+              </ImageListItem>
           ))}
-        </Masonry>
-      </Box>
+          </ImageList>
+        </Box>
 
       <ModalGateway>
         {viewerIsOpen ? (

@@ -64,7 +64,7 @@ export default function Footer() {
                                 <Stack spacing={1}>
                                     <Typography variant='h6'>Let’s stay in touch</Typography>
                                     <Typography variant='caption' sx={{color: 'text.secondary'}}>
-                                        Email us to receive the church programs to your inbox weekly.
+                                        Email us to receive our articles in your inbox weekly.
                                     </Typography>
                                 </Stack>
                                 <FilledInput
@@ -165,7 +165,7 @@ function ListDesktop({list}) {
     return (
         <>
             <Stack alignItems='flex-start' sx={{pb: {md: 1}}}>
-                <Typography variant='h6'>Gcc Pages</Typography>
+                <Typography variant='h6'>KGA Pages</Typography>
                 {list.map((link) => (
                     <NextLinkItem key={link.title} href={link.path}>
                         {link.title}

@@ -36,7 +36,7 @@ export default function ElearningAboutHero() {
             </Typography>
 
             <Button variant="contained" size="large">
-              Browse Courses
+              Contact Us
             </Button>
           </Grid>
 

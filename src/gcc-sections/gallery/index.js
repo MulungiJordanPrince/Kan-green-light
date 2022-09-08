@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 function Gallery() {
 
     return (
-        <Grid sx={{pt: 8}}>
+        <Grid sx={{py: 12}}>
             <Grid container direction="row">
                 <ImageGridList/>
             </Grid>

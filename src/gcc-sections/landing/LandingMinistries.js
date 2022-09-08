@@ -44,7 +44,7 @@ export default function Landingservices(){
           color={'textSecondary'}
           align={'center'}
         >
-          Want to know more about our service? Take take and read through..
+          Want to know more about our service? Take time and read through..
         </Typography>
       </Box>
       <Grid container spacing={4}>

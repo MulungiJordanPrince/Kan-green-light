@@ -10,7 +10,7 @@ import { Image, CountUpNumber } from '../../components';
 
 const SUMMARY = [
   {
-    name: 'Learners',
+    name: 'Web development',
     number: 14000,
     description:
       'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',

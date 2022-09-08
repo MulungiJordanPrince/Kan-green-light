@@ -52,8 +52,7 @@ export default function LandingVideo() {
               variant="h4"
               sx={{ mt: 5, maxWidth: 564, bottom: { md: 80 }, opacity: { md: 0.72 } }}
           >
-            Our vision offering the best product nulla vehicula tortor scelerisque ultrices
-            malesuada.
+            To bring value to the Marketing and digital landscape of the country and contributing our part in the economy.
           </TypographyStyle>
         </Container>
       </RootStyle>
