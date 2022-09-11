@@ -44,7 +44,7 @@ export default function Footer() {
                             <Stack alignItems='flex-start' spacing={3}>
                                 <Image src={logo} width={100} height={100} />
                                 <Typography variant='body2' sx={{color: 'text.secondary'}}>
-                                    KAN GREEN LIGHT MARKETING AVENUE LTD. helps companies strategize and implement their
+                                    KAN GREEN LIGHT AVENUE LTD. helps companies strategize and implement their
                                     creative visions. Our growing Marketing Agency is driven by passionate thinkers who
                                     work closely with each brand to create strategies that produce unparalleled results.
                                 </Typography>
@@ -113,7 +113,7 @@ export default function Footer() {
                     <Stack direction='row' spacing={3} justifyContent='center'>
                         <Link variant='caption' sx={{color: 'text.secondary'}}>
                             Call Us:
-                            Tel 0750064865
+                            Tel +256 788 704 848 / +256 704 117 372
                         </Link>
                         <Link variant='caption' sx={{color: 'text.secondary'}}>
                             Email Us:

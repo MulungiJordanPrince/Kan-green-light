@@ -20,7 +20,7 @@ export default function LandingAbout() {
           <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
             <Box marginBottom={2}>
               <Typography variant={'h4'} sx={{ fontWeight: 700 }} gutterBottom>
-                  GREEN LIGHT MARKETING AVENUE LTD.  helps companies strategize and implement their creative visions. Our growing Marketing Agency is driven by passionate thinkers who work closely with each brand to create strategies that produce unparalleled results.
+                  KAN GREENLIGHT AVENUE LTD.  helps companies strategize and implement their creative visions. Our growing Marketing Agency is driven by passionate thinkers who work closely with each brand to create strategies that produce unparalleled results.
               </Typography>
               <Typography
                 variant='body1'

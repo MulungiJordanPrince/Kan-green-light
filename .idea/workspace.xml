@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="solution to -&gt; Module not found: Can't resolve 'react/addons">
+    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="gallery sorted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gcc-layouts/main/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-layouts/main/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/gallery/GccGalleryHero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/gallery/GccGalleryHero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/gallery/ImageGridList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/gallery/ImageGridList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/gallery/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingMinistries.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingMinistries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingVideo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/ElearningAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/about/ElearningAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/about/ElearningAboutHero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/about/ElearningAboutHero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +111,10 @@
       <workItem from="1662238477343" duration="6537000" />
       <workItem from="1662450929460" duration="4011000" />
       <workItem from="1662458917325" duration="16197000" />
-      <workItem from="1662622712762" duration="1286000" />
+      <workItem from="1662622712762" duration="1892000" />
+      <workItem from="1662639754853" duration="1195000" />
+      <workItem from="1662660191329" duration="684000" />
+      <workItem from="1662821614483" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
       <created>1661729048706</created>
@@ -189,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662548110855</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gallery sorted">
+      <created>1662624164562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662624164562</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="KAN GREEN LIGHT NEW" />
     <MESSAGE value="solution to -&gt; Module not found: Can't resolve 'react/addons" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution to -&gt; Module not found: Can't resolve 'react/addons" />
+    <MESSAGE value="gallery sorted" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery sorted" />
   </component>
 </project>
