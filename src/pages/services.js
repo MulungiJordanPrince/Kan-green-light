@@ -21,7 +21,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 export default function TravelAboutUsPage() {
   return (
-    <Page title='Ministries'>
+    <Page title='Services'>
       <RootStyle>
         <Ministries />
         <Newsletter />

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="gallery sorted">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-layouts/main/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-layouts/main/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +113,7 @@
       <workItem from="1662639754853" duration="1195000" />
       <workItem from="1662660191329" duration="684000" />
       <workItem from="1662821614483" duration="344000" />
+      <workItem from="1662928536549" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
       <created>1661729048706</created>
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662624164562</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="gallery sorted">
+      <created>1662928665795</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662928665796</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
