@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="gallery sorted">
-      <change beforePath="$PROJECT_DIR$/src/pages/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/gcc-Images/logos/logo-sm.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/gcc-Images/logos/logo-sm.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,10 @@
       <workItem from="1662639754853" duration="1195000" />
       <workItem from="1662660191329" duration="684000" />
       <workItem from="1662821614483" duration="344000" />
-      <workItem from="1662928536549" duration="783000" />
+      <workItem from="1662928536549" duration="1853000" />
+      <workItem from="1663270570447" duration="38000" />
+      <workItem from="1664525633089" duration="57000" />
+      <workItem from="1664525797147" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
       <created>1661729048706</created>
@@ -199,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662928665796</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="gallery sorted">
+      <created>1662929798179</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662929798179</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
