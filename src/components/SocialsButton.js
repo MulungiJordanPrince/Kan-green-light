@@ -20,7 +20,7 @@ export default function SocialsButton({ initialColor = false, simple = true, lin
       name: 'FaceBook',
       icon: 'eva:facebook-fill',
       socialColor: '#1877F2',
-      path: '#https://www.facebook.com/kangreenlightavenuelimited',
+      path: 'https://www.facebook.com/kangreenlightavenuelimited',
     },
     {
       name: 'Instagram',
@@ -32,7 +32,7 @@ export default function SocialsButton({ initialColor = false, simple = true, lin
       name: 'Youtube',
       icon: 'ant-design:youtube-filled',
       socialColor: '#dc0404',
-      path: '#https://www.youtube.com/channel/UCcqVdaKI1rp8nVa7U9S6gQQ',
+      path: 'https://www.youtube.com/channel/UCcqVdaKI1rp8nVa7U9S6gQQ',
     },
     {
       name: 'Twitter',
