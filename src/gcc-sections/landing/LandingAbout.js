@@ -38,18 +38,17 @@ export default function LandingAbout() {
                             flexDirection={{xs: 'column', sm: 'row'}}
                             alignItems={{xs: 'stretched', sm: 'flex-start'}}
                         >
-                            <NextLink href='/contact-us' passHref>
                                 <Box
                                     component={Button}
                                     variant='outlined'
                                     color='primary'
                                     size='large'
                                     fullWidth={!isMd}
+                                    href='mailto:kangreenlight@gmail.com?subject=[Feedback] from Customer'
                                 >
                                     E-mail Us
                                 </Box>
-                            </NextLink>
-                            <a href='tel:0704117372'>
+
                                 <Box
                                     component={Button}
                                     variant='contained'
@@ -58,10 +57,10 @@ export default function LandingAbout() {
                                     fullWidth={!isMd}
                                     marginTop={{xs: 1, sm: 0}}
                                     marginLeft={{sm: 2}}
+                                    href='tel:0704117372'
                                 >
                                     Call Us
                                 </Box>
-                            </a>
                         </Box>
                     </Box>
                 </Grid>

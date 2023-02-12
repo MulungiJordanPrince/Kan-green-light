@@ -53,7 +53,7 @@ export default function GccGalleryHero() {
           </Typography>
         </Box>
         <Box display="flex" justifyContent={'center'}>
-            <NextLink href='/contact us' passHref>
+            <NextLink href='/contact-us' passHref>
           <Box
             component={Button}
             variant="contained"

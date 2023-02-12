@@ -76,7 +76,7 @@ export default function GccMinistryHero() {
                     We offer a variety of services to our customers.
                   </Typography>
                 </Stack>
-                <NextLink href='/contact Us' passHref>
+                <NextLink href='/contact-us' passHref>
                 <Button fullWidth variant='contained' size='large' startIcon={<Iconify icon={cloudUpload} />}>
                   Contact Us
                 </Button>
