@@ -100,7 +100,7 @@ export default function LandingHero() {
                                         Turning your Dream into Digital Reality!
                                     </Typography>
                                 </Stack>
-                                <NextLink href='/donate' passHref>
+                                <NextLink href='/contact-us' passHref>
                                     <Button fullWidth variant='contained' size='large'
                                             startIcon={<Iconify icon={cloudUpload}/>}>
                                         Contact Us

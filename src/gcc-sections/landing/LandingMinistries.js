@@ -128,7 +128,7 @@ export default function Landingservices(){
           </Grid>
         ))}
         <Grid item container xs={12} justifyContent={'center'}>
-            <NextLink href='/ministries' passHref>
+            <NextLink href='/services' passHref>
           <Button
             color={'primary'}
             variant={'contained'}

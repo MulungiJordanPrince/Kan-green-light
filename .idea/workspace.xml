@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="gallery sorted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/gcc-Images/logos/logo-sm.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/gcc-Images/logos/logo-sm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingAbout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingHero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingHero.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="29ne33kj" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -27,22 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/princ/Desktop/Green Light Website/src/sections/about&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\princ\\Desktop\\Green Light Website\\node_modules\\prettier&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\princ\\Desktop\\Green Light Website\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/princ/Desktop/Green Light Website/src/sections/about",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\princ\\Desktop\\Green Light Website\\node_modules\\prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "ts.external.directory.path": "C:\\Users\\princ\\Desktop\\Green Light Website\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\princ\Desktop\Green Light Website\src\sections\about" />
@@ -118,6 +127,7 @@
       <workItem from="1663270570447" duration="38000" />
       <workItem from="1664525633089" duration="57000" />
       <workItem from="1664525797147" duration="3331000" />
+      <workItem from="1676179379129" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
       <created>1661729048706</created>
