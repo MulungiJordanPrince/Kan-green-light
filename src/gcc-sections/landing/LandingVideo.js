@@ -33,7 +33,6 @@ const TypographyStyle = styled(Typography)(({ theme }) => ({
 export default function LandingVideo() {
 
   const video = `https://www.youtube.com/embed/GoaH2VHzIuY`;
-  // const video = `https://www.dropbox.com/s/y9b3md02u4lrjze/yt1s.com%20-%20ROYALTY%20FREE%20Travel%20Pop%20Music%20%20Travel%20Video%20Background%20Royalty%20Free%20Music%20by%20MUSIC4VIDEO_1080p.mp4?dl=0`;
 
   return (
       <Box sx={{ py: {sx: 4, md: 12}, px: { xs: 2, sm: 6, md: 12 } }}>

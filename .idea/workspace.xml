@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="v0.0.1">
+    <list default="true" id="6f6bebfb-c1f4-430a-90af-1bda3be0f306" name="Changes" comment="gallery sorted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gcc-sections/landing/LandingVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gcc-sections/landing/LandingVideo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/about/ElearningAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/about/ElearningAbout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +16,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MacroExpansionManager">
-    <option name="directoryName" value="29ne33kj" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,7 +124,6 @@
       <workItem from="1663270570447" duration="38000" />
       <workItem from="1664525633089" duration="57000" />
       <workItem from="1664525797147" duration="3331000" />
-      <workItem from="1676179379129" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="KAN GREEN LIGHT NEW">
       <created>1661729048706</created>
@@ -218,21 +216,7 @@
       <option name="project" value="LOCAL" />
       <updated>1662929798179</updated>
     </task>
-    <task id="LOCAL-00014" summary="v0.0.1">
-      <created>1676180509841</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1676180509841</updated>
-    </task>
-    <task id="LOCAL-00015" summary="v0.0.1">
-      <created>1676181077467</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1676181077467</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +237,6 @@
     <MESSAGE value="KAN GREEN LIGHT NEW" />
     <MESSAGE value="solution to -&gt; Module not found: Can't resolve 'react/addons" />
     <MESSAGE value="gallery sorted" />
-    <MESSAGE value="v0.0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery sorted" />
   </component>
 </project>

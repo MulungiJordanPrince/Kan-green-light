@@ -13,19 +13,19 @@ const SUMMARY = [
     name: 'Web development',
     number: 14000,
     description:
-      'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
+      'Web development services by a company with 10 years of expertise. Professional UX/UI design and implementation of websites, web portals and other solutions.',
   },
   {
-    name: 'Courses',
+    name: 'Branding',
     number: 1050,
     description:
-      'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
+      'Who Needs Help with Brand Identity Design? Everyone. Don\'t attempt this yourself. At this stage, you\'ll definitely want a professional branding agency involved.',
   },
   {
-    name: 'Graduates',
+    name: 'Advertising & marketing',
     number: 52000,
     description:
-      'Ut varius tincidunt libero. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
+      'Want to effectively reach your target market with creativity and precision? Our Advertising and Marketing Services accomplish that goal for you. Contact us.',
   },
 ];
 
